@@ -1,0 +1,13 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Program Files\\Java\\jdk-25",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-25",
+    "java.home": "C:\\Program Files\\Java\\jdk-25",
+    "maven.executable.path": "expense_tracker\\mvnw.cmd",
+    "java.project.sourcePaths": ["expense_tracker/src/main/java"]
+}

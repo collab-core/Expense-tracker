@@ -12,24 +12,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js (if JS project)
-        uses: actions/setup-node@v4
+      - name: Set up JDK
+        uses: actions/setup-java@v4
         with:
-          node-version: 18
+          distribution: 'temurin'
+          java-version: '17'
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests (optional)
-        run: npm test
-
-      - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v2
-        with:
-          projectBaseDir: .
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      - name: Build and analyze with Maven
+        run: mvn clean verify sonar:sonar \
+          -Dsonar.projectKey=collab-core_Expense-tracker
+          -Dsonar.organization=collab-core
+          -Dsonar.host.url=https://sonarcloud.io \
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}

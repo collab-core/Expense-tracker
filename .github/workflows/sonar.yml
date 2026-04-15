@@ -33,8 +33,5 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./mvnw -B clean verify sonar:sonar \
-          -Dsonar.projectKey=collab-core_Expense-tracker \
-          -Dsonar.organization=collab-core \
-          -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=$SONAR_TOKEN
+        run: |
+          ./mvnw -B -Dsonar.projectKey=collab-core_Expense-tracker -Dsonar.organization=collab-core -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar

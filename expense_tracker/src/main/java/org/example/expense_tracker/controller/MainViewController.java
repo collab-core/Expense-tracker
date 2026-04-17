@@ -14,7 +14,9 @@ import javafx.scene.layout.BorderPane;
 import org.example.expense_tracker.model.Transaction;
 import org.example.expense_tracker.model.TransactionType; // <-- NEW IMPORT
 import org.example.expense_tracker.model.User;
-import org.example.expense_tracker.repository.TransactionRepository;
+import org.example.expense_tracker.pattern.dao.TransactionDAO;
+import org.example.expense_tracker.pattern.observer.TransactionObserver;
+import org.example.expense_tracker.service.TransactionService;
 import org.example.expense_tracker.service.UserSession;
 import org.example.expense_tracker.service.ViewSwitcher;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +28,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Controller
-public class MainViewController {
+public class MainViewController implements TransactionObserver {
 
     @FXML
     private BorderPane mainBorderPane;
@@ -56,15 +58,26 @@ public class MainViewController {
 
     private final UserSession userSession;
     private final ViewSwitcher viewSwitcher;
-    private final TransactionRepository transactionRepository;
+    private final TransactionDAO transactionDAO;
+    private final TransactionService transactionService;
 
     @Autowired
     public MainViewController(UserSession userSession, ViewSwitcher viewSwitcher,
-                              TransactionRepository transactionRepository, ApplicationContext applicationContext) {
+                              TransactionDAO transactionDAO, TransactionService transactionService, ApplicationContext applicationContext) {
         this.userSession = userSession;
         this.viewSwitcher = viewSwitcher;
-        this.transactionRepository = transactionRepository;
+        this.transactionDAO = transactionDAO;
+        this.transactionService = transactionService;
         this.applicationContext = applicationContext;
+        
+        // Register as an observer
+        this.transactionService.addObserver(this);
+    }
+
+    @Override
+    public void onTransactionUpdated() {
+        // Refresh the table when notified
+        refreshTransactionTable();
     }
 
     @FXML
@@ -123,7 +136,7 @@ public class MainViewController {
         User user = userSession.getLoggedInUser();
         if (user != null) {
             ObservableList<Transaction> transactions = FXCollections.observableArrayList(
-                    transactionRepository.findByUser(user));
+                    transactionDAO.findByUser(user));
             transactionsTable.setItems(transactions);
         }
     }

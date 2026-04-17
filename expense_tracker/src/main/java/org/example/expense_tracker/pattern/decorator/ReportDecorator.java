@@ -1,0 +1,17 @@
+package org.example.expense_tracker.pattern.decorator;
+
+import org.example.expense_tracker.model.Transaction;
+import java.util.List;
+
+public abstract class ReportDecorator implements TransactionReport {
+    protected TransactionReport report;
+
+    public ReportDecorator(TransactionReport report) {
+        this.report = report;
+    }
+
+    @Override
+    public double calculateTotal(List<Transaction> transactions) {
+        return report.calculateTotal(transactions);
+    }
+}

@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.chart.*;
 import org.example.expense_tracker.model.Category;
-import org.example.expense_tracker.service.TransactionService;
+import org.example.expense_tracker.service.ITransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
@@ -30,10 +30,10 @@ public class StatisticsViewController {
     private LineChart<String, Number> incomeTrendChart;
     // --- END OF NEW FIELDS ---
 
-    private final TransactionService transactionService;
+    private final ITransactionService transactionService;
 
     @Autowired
-    public StatisticsViewController(TransactionService transactionService) {
+    public StatisticsViewController(ITransactionService transactionService) {
         this.transactionService = transactionService;
     }
 

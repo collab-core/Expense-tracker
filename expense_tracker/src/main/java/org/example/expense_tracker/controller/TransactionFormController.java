@@ -5,7 +5,7 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import org.example.expense_tracker.model.Category;
 import org.example.expense_tracker.model.TransactionType;
-import org.example.expense_tracker.service.TransactionService;
+import org.example.expense_tracker.service.ITransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
@@ -28,13 +28,13 @@ public class TransactionFormController {
     @FXML
     private Label errorLabel;
 
-    private final TransactionService transactionService;
+    private final ITransactionService transactionService;
 
     // --- NEW FIELD ---
     private MainViewController mainViewController;
 
     @Autowired
-    public TransactionFormController(TransactionService transactionService) {
+    public TransactionFormController(ITransactionService transactionService) {
         this.transactionService = transactionService;
     }
 

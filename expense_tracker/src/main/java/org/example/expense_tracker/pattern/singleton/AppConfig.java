@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 public class AppConfig {
     private String currencyCode = "USD";
     
+    /**
+     * Default constructor for Spring component initialization.
+     * AppConfig is managed by Spring as a singleton component.
+     */
     public AppConfig() {}
 
     public String getCurrencyCode() {

@@ -13,7 +13,6 @@ import org.example.expense_tracker.service.ViewSwitcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import java.io.IOException; // <-- IMPORTANT
 import java.util.Optional;
 
 @Controller

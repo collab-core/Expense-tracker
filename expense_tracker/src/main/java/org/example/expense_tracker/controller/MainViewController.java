@@ -22,6 +22,8 @@ import org.example.expense_tracker.service.ViewSwitcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -29,6 +31,7 @@ import java.time.LocalDate;
 
 @Controller
 public class MainViewController implements TransactionObserver {
+    private static final Logger logger = LoggerFactory.getLogger(MainViewController.class);
 
     @FXML
     private BorderPane mainBorderPane;
@@ -164,26 +167,26 @@ public class MainViewController implements TransactionObserver {
 
     @FXML
     private void handleViewCalendar(ActionEvent event) {
-        System.out.println("View Calendar menu clicked!");
+        logger.info("View Calendar menu clicked!");
         loadView("/fxml/CalendarView.fxml");
     }
 
     @FXML
     private void handleViewStatistics(ActionEvent event) {
-        System.out.println("View Statistics menu clicked!");
+        logger.info("View Statistics menu clicked!");
         loadView("/fxml/StatisticsView.fxml");
     }
 
     @FXML
     private void handleShowAbout(ActionEvent event) {
-        System.out.println("Show About menu clicked!");
+        logger.info("Show About menu clicked!");
         loadView("/fxml/AboutView.fxml");
     }
 
     // --- THIS METHOD IS NOW PUBLIC ---
     @FXML
     public void handleViewTransactionHistory(ActionEvent event) {
-        System.out.println("View Transaction History clicked!");
+        logger.info("View Transaction History clicked!");
         mainBorderPane.setCenter(transactionHistoryView);
         refreshTransactionTable();
     }

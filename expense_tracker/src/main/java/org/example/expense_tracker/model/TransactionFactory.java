@@ -6,6 +6,14 @@ import java.time.LocalDate;
 public class TransactionFactory {
 
     /**
+     * Private constructor to hide the implicit public one.
+     * This utility class should not be instantiated.
+     */
+    private TransactionFactory() {
+        throw new UnsupportedOperationException("Utility class cannot be instantiated");
+    }
+
+    /**
      * Factory method to dynamically create a Transaction object based on the type.
      */
     public static Transaction createTransaction(TransactionType type, BigDecimal amount, String description, LocalDate date, Category category, User user) {

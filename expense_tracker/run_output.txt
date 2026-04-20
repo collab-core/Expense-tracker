@@ -1,0 +1,2555 @@
+﻿.\mvnw.cmd : WARNING: A 
+restricted method in 
+java.lang.System has been 
+called
+At line:1 char:50
++ ...  = "C:\Program 
+Files\Java\jdk-25"; 
+.\mvnw.cmd javafx:run 2>&1 | 
+Out-F ...
++                            
+            
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (WARNING  
+  : A rest...has been call   
+ ed:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+WARNING: 
+java.lang.System::load has 
+been called by org.fusesource
+.jansi.internal.JansiLoader 
+in an unnamed module (file:/C
+:/Users/DHIVYADHARSHINI%20R/.
+m2/wrapper/dists/apache-maven
+-3.8.5-bin/5i5jha092a3i37g0pa
+qnfr15e0/apache-maven-3.8.5/l
+ib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-
+access=ALL-UNNAMED to avoid 
+a warning for callers in 
+this module
+WARNING: Restricted methods 
+will be blocked in a future 
+release unless native access 
+is enabled
+
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has been 
+called
+WARNING: sun.misc.Unsafe::obj
+ectFieldOffset has been 
+called by com.google.common.u
+til.concurrent.AbstractFuture
+$UnsafeAtomicHelper (file:/C:
+/Users/DHIVYADHARSHINI%20R/.m
+2/wrapper/dists/apache-maven-
+3.8.5-bin/5i5jha092a3i37g0paq
+nfr15e0/apache-maven-3.8.5/li
+b/guava-25.1-android.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class com.goog
+le.common.util.concurrent.Abs
+tractFuture$UnsafeAtomicHelpe
+r
+WARNING: sun.misc.Unsafe::obj
+ectFieldOffset will be 
+removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:expense_tracker >---------------------
+[INFO] Building expense_tracker 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> javafx-maven-plugin:0.0.8:run (default-cli) > process-classes @ expense_tracker >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ expense_tracker ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 8 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ expense_tracker ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< javafx-maven-plugin:0.0.8:run (default-cli) < process-classes @ expense_tracker <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx-maven-plugin:0.0.8:run (default-cli) @ expense_tracker ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.0/maven-model-3.6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+Progress (1): 2.3/205 kB
+Progress (2): 2.3/205 kB | 2.3/48 kB
+Progress (2): 5.0/205 kB | 2.3/48 kB
+Progress (2): 5.0/205 kB | 5.0/48 kB
+Progress (3): 5.0/205 kB | 5.0/48 kB | 2.3/45 kB
+Progress (4): 5.0/205 kB | 5.0/48 kB | 2.3/45 kB | 2.3/55 kB
+Progress (4): 5.0/205 kB | 5.0/48 kB | 5.0/45 kB | 2.3/55 kB
+Progress (5): 5.0/205 kB | 5.0/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB
+Progress (5): 5.0/205 kB | 7.7/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB
+Progress (5): 7.7/205 kB | 7.7/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 7.7/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB 
+Progress (5): 10/205 kB | 11/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB 
+Progress (5): 10/205 kB | 14/48 kB | 5.0/45 kB | 2.3/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 7.7/45 kB | 2.3/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 10/45 kB | 2.3/55 kB | 2.3/166 kB 
+Progress (5): 10/205 kB | 14/48 kB | 10/45 kB | 5.0/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 5.0/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 7.7/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 10/55 kB | 2.3/166 kB 
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 13/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 16/55 kB | 2.3/166 kB
+Progress (5): 10/205 kB | 14/48 kB | 13/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 14/205 kB | 14/48 kB | 13/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 16/205 kB | 14/48 kB | 13/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 16/205 kB | 14/48 kB | 16/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 16/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 2.3/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 5.0/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 7.7/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 10/166 kB 
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 13/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 16/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 19/166 kB
+Progress (5): 19/205 kB | 14/48 kB | 19/45 kB | 18/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 16/48 kB | 19/45 kB | 18/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 16/48 kB | 19/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 16/48 kB | 21/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 19/48 kB | 21/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 22/48 kB | 21/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 22/48 kB | 24/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 22/48 kB | 27/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 19/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 22/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 25/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 27/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 30/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 30/45 kB | 21/55 kB | 21/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 30/45 kB | 24/55 kB | 21/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 30/45 kB | 27/55 kB | 21/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 21/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 24/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 27/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 30/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 32/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 35/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 38/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 41/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 43/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 46/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 49/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 52/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 32/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 35/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 38/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 41/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 22/48 kB | 43/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 25/48 kB | 43/45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 25/48 kB | 45 kB | 27/55 kB | 54/166 kB   
+Progress (5): 33/205 kB | 27/48 kB | 45 kB | 27/55 kB | 54/166 kB
+Progress (5): 33/205 kB | 27/48 kB | 45 kB | 27/55 kB | 57/166 kB
+Progress (5): 33/205 kB | 27/48 kB | 45 kB | 27/55 kB | 61/166 kB
+Progress (5): 33/205 kB | 27/48 kB | 45 kB | 27/55 kB | 66/166 kB
+Progress (5): 33/205 kB | 27/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 36/205 kB | 27/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 27/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 30/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 33/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 36/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 38/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 41/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 44/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 47/48 kB | 45 kB | 27/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 47/48 kB | 45 kB | 29/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 47/48 kB | 45 kB | 32/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 32/55 kB | 70/166 kB   
+Progress (5): 38/205 kB | 48 kB | 45 kB | 35/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 38/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 40/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 43/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 46/55 kB | 70/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 46/55 kB | 74/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 49/55 kB | 74/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 51/55 kB | 74/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 54/55 kB | 74/166 kB
+Progress (5): 38/205 kB | 48 kB | 45 kB | 55 kB | 74/166 kB   
+Progress (5): 41/205 kB | 48 kB | 45 kB | 55 kB | 74/166 kB
+Progress (5): 41/205 kB | 48 kB | 45 kB | 55 kB | 78/166 kB
+Progress (5): 41/205 kB | 48 kB | 45 kB | 55 kB | 82/166 kB
+Progress (5): 41/205 kB | 48 kB | 45 kB | 55 kB | 86/166 kB
+Progress (5): 44/205 kB | 48 kB | 45 kB | 55 kB | 86/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 86/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 90/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 94/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 98/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 102/166 kB
+Progress (5): 47/205 kB | 48 kB | 45 kB | 55 kB | 106/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 106/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 111/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 115/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 119/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 123/166 kB
+Progress (5): 49/205 kB | 48 kB | 45 kB | 55 kB | 125/166 kB
+Progress (5): 52/205 kB | 48 kB | 45 kB | 55 kB | 125/166 kB
+Progress (5): 52/205 kB | 48 kB | 45 kB | 55 kB | 129/166 kB
+Progress (5): 55/205 kB | 48 kB | 45 kB | 55 kB | 129/166 kB
+Progress (5): 55/205 kB | 48 kB | 45 kB | 55 kB | 133/166 kB
+Progress (5): 59/205 kB | 48 kB | 45 kB | 55 kB | 133/166 kB
+Progress (5): 63/205 kB | 48 kB | 45 kB | 55 kB | 133/166 kB
+Progress (5): 63/205 kB | 48 kB | 45 kB | 55 kB | 137/166 kB
+Progress (5): 67/205 kB | 48 kB | 45 kB | 55 kB | 137/166 kB
+Progress (5): 67/205 kB | 48 kB | 45 kB | 55 kB | 141/166 kB
+Progress (5): 71/205 kB | 48 kB | 45 kB | 55 kB | 141/166 kB
+Progress (5): 71/205 kB | 48 kB | 45 kB | 55 kB | 145/166 kB
+Progress (5): 75/205 kB | 48 kB | 45 kB | 55 kB | 145/166 kB
+Progress (5): 75/205 kB | 48 kB | 45 kB | 55 kB | 150/166 kB
+Progress (5): 79/205 kB | 48 kB | 45 kB | 55 kB | 150/166 kB
+Progress (5): 79/205 kB | 48 kB | 45 kB | 55 kB | 154/166 kB
+Progress (5): 83/205 kB | 48 kB | 45 kB | 55 kB | 154/166 kB
+Progress (5): 83/205 kB | 48 kB | 45 kB | 55 kB | 158/166 kB
+Progress (5): 87/205 kB | 48 kB | 45 kB | 55 kB | 158/166 kB
+Progress (5): 87/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 92/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 96/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 100/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 104/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 108/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 112/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 116/205 kB | 48 kB | 45 kB | 55 kB | 162/166 kB
+Progress (5): 116/205 kB | 48 kB | 45 kB | 55 kB | 166 kB    
+Progress (5): 120/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 122/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 126/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 131/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 135/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 139/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 143/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 147/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 151/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 155/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 159/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 163/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 167/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 172/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 176/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 180/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 184/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 188/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 192/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 194/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 198/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 202/205 kB | 48 kB | 45 kB | 55 kB | 166 kB
+Progress (5): 205 kB | 48 kB | 45 kB | 55 kB | 166 kB    
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar (45 kB at 8.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar (55 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar (48 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar (205 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.11/plexus-java-0.9.11.jar
+Progress (2): 166 kB | 2.3/262 kB
+Progress (2): 166 kB | 5.0/262 kB
+Progress (2): 166 kB | 9.1/262 kB
+Progress (2): 166 kB | 13/262 kB 
+Progress (2): 166 kB | 17/262 kB
+Progress (2): 166 kB | 21/262 kB
+Progress (2): 166 kB | 25/262 kB
+Progress (2): 166 kB | 29/262 kB
+Progress (2): 166 kB | 33/262 kB
+Progress (2): 166 kB | 37/262 kB
+Progress (2): 166 kB | 41/262 kB
+Progress (2): 166 kB | 45/262 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.6.0/maven-model-3.6.0.jar (166 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.jar
+Progress (2): 45/262 kB | 3.8/5.8 kB
+Progress (2): 49/262 kB | 3.8/5.8 kB
+Progress (2): 49/262 kB | 5.8 kB    
+Progress (2): 53/262 kB | 5.8 kB
+Progress (2): 57/262 kB | 5.8 kB
+Progress (2): 61/262 kB | 5.8 kB
+Progress (3): 61/262 kB | 5.8 kB | 3.8/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 7.8/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 12/53 kB 
+Progress (3): 61/262 kB | 5.8 kB | 16/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 20/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 24/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 28/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 32/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 36/53 kB
+Progress (3): 61/262 kB | 5.8 kB | 40/53 kB
+Progress (3): 66/262 kB | 5.8 kB | 40/53 kB
+Progress (3): 66/262 kB | 5.8 kB | 44/53 kB
+Progress (3): 70/262 kB | 5.8 kB | 44/53 kB
+Progress (3): 70/262 kB | 5.8 kB | 48/53 kB
+Progress (3): 74/262 kB | 5.8 kB | 48/53 kB
+Progress (3): 74/262 kB | 5.8 kB | 53/53 kB
+Progress (3): 74/262 kB | 5.8 kB | 53 kB   
+Progress (3): 78/262 kB | 5.8 kB | 53 kB
+Progress (3): 82/262 kB | 5.8 kB | 53 kB
+Progress (3): 86/262 kB | 5.8 kB | 53 kB
+Progress (3): 90/262 kB | 5.8 kB | 53 kB
+Progress (3): 94/262 kB | 5.8 kB | 53 kB
+Progress (3): 98/262 kB | 5.8 kB | 53 kB
+Progress (3): 102/262 kB | 5.8 kB | 53 kB
+Progress (3): 106/262 kB | 5.8 kB | 53 kB
+Progress (3): 111/262 kB | 5.8 kB | 53 kB
+Progress (3): 115/262 kB | 5.8 kB | 53 kB
+Progress (3): 119/262 kB | 5.8 kB | 53 kB
+Progress (3): 123/262 kB | 5.8 kB | 53 kB
+Progress (3): 127/262 kB | 5.8 kB | 53 kB
+Progress (3): 131/262 kB | 5.8 kB | 53 kB
+Progress (3): 135/262 kB | 5.8 kB | 53 kB
+Progress (3): 139/262 kB | 5.8 kB | 53 kB
+Progress (3): 143/262 kB | 5.8 kB | 53 kB
+Progress (3): 147/262 kB | 5.8 kB | 53 kB
+Progress (3): 152/262 kB | 5.8 kB | 53 kB
+Progress (3): 156/262 kB | 5.8 kB | 53 kB
+Progress (3): 160/262 kB | 5.8 kB | 53 kB
+Progress (3): 164/262 kB | 5.8 kB | 53 kB
+Progress (3): 168/262 kB | 5.8 kB | 53 kB
+Progress (3): 172/262 kB | 5.8 kB | 53 kB
+Progress (3): 176/262 kB | 5.8 kB | 53 kB
+Progress (3): 180/262 kB | 5.8 kB | 53 kB
+Progress (3): 184/262 kB | 5.8 kB | 53 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 3.8/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 7.8/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 12/50 kB 
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 16/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 20/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 24/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 28/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 32/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 37/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 41/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 45/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 49/50 kB
+Progress (4): 184/262 kB | 5.8 kB | 53 kB | 50 kB   
+Progress (4): 188/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 193/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 197/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 201/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 205/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 209/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 213/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (4): 217/262 kB | 5.8 kB | 53 kB | 50 kB
+Progress (5): 217/262 kB | 5.8 kB | 53 kB | 50 kB | 3.8/114 kB
+Progress (5): 221/262 kB | 5.8 kB | 53 kB | 50 kB | 3.8/114 kB
+Progress (5): 225/262 kB | 5.8 kB | 53 kB | 50 kB | 3.8/114 kB
+Progress (5): 225/262 kB | 5.8 kB | 53 kB | 50 kB | 7.8/114 kB
+Progress (5): 229/262 kB | 5.8 kB | 53 kB | 50 kB | 7.8/114 kB
+Progress (5): 229/262 kB | 5.8 kB | 53 kB | 50 kB | 12/114 kB 
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 12/114 kB
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 16/114 kB
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 20/114 kB
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 24/114 kB
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 28/114 kB
+Progress (5): 233/262 kB | 5.8 kB | 53 kB | 50 kB | 32/114 kB
+                                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar (5.8 kB at 1.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+Progress (4): 233/262 kB | 53 kB | 50 kB | 37/114 kB
+Progress (4): 238/262 kB | 53 kB | 50 kB | 37/114 kB
+Progress (4): 242/262 kB | 53 kB | 50 kB | 37/114 kB
+Progress (4): 246/262 kB | 53 kB | 50 kB | 37/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 37/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 41/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 45/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 49/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 53/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 57/114 kB
+Progress (4): 250/262 kB | 53 kB | 50 kB | 61/114 kB
+Progress (4): 254/262 kB | 53 kB | 50 kB | 61/114 kB
+Progress (4): 258/262 kB | 53 kB | 50 kB | 61/114 kB
+Progress (4): 262 kB | 53 kB | 50 kB | 61/114 kB    
+Progress (4): 262 kB | 53 kB | 50 kB | 65/114 kB
+Progress (4): 262 kB | 53 kB | 50 kB | 69/114 kB
+Progress (4): 262 kB | 53 kB | 50 kB | 73/114 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar (53 kB at 9.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.6.0/plexus-archiver-3.6.0.jar
+Progress (3): 262 kB | 50 kB | 77/114 kB
+Progress (3): 262 kB | 50 kB | 80/114 kB
+Progress (3): 262 kB | 50 kB | 84/114 kB
+Progress (3): 262 kB | 50 kB | 88/114 kB
+Progress (3): 262 kB | 50 kB | 92/114 kB
+Progress (3): 262 kB | 50 kB | 96/114 kB
+Progress (3): 262 kB | 50 kB | 100/114 kB
+Progress (3): 262 kB | 50 kB | 104/114 kB
+Progress (3): 262 kB | 50 kB | 108/114 kB
+Progress (3): 262 kB | 50 kB | 112/114 kB
+Progress (3): 262 kB | 50 kB | 114 kB    
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.11/plexus-java-0.9.11.jar (50 kB at 8.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar
+Progress (3): 262 kB | 114 kB | 2.3/317 kB
+Progress (3): 262 kB | 114 kB | 6.4/317 kB
+Progress (3): 262 kB | 114 kB | 10/317 kB 
+Progress (3): 262 kB | 114 kB | 13/317 kB
+Progress (3): 262 kB | 114 kB | 17/317 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar (262 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+Progress (2): 114 kB | 21/317 kB
+Progress (2): 114 kB | 25/317 kB
+Progress (2): 114 kB | 29/317 kB
+Progress (2): 114 kB | 33/317 kB
+Progress (2): 114 kB | 37/317 kB
+Progress (2): 114 kB | 41/317 kB
+Progress (2): 114 kB | 45/317 kB
+Progress (2): 114 kB | 49/317 kB
+Progress (2): 114 kB | 54/317 kB
+Progress (2): 114 kB | 58/317 kB
+Progress (2): 114 kB | 61/317 kB
+Progress (2): 114 kB | 66/317 kB
+Progress (2): 114 kB | 70/317 kB
+Progress (2): 114 kB | 74/317 kB
+Progress (2): 114 kB | 78/317 kB
+Progress (2): 114 kB | 82/317 kB
+Progress (2): 114 kB | 86/317 kB
+Progress (2): 114 kB | 90/317 kB
+Progress (2): 114 kB | 94/317 kB
+Progress (2): 114 kB | 98/317 kB
+Progress (2): 114 kB | 102/317 kB
+Progress (2): 114 kB | 106/317 kB
+Progress (2): 114 kB | 111/317 kB
+Progress (2): 114 kB | 115/317 kB
+Progress (2): 114 kB | 119/317 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.0-beta/asm-7.0-beta.jar (114 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.16.1/commons-compress-1.16.1.jar
+Progress (1): 123/317 kB
+Progress (1): 127/317 kB
+Progress (1): 129/317 kB
+Progress (1): 133/317 kB
+Progress (1): 137/317 kB
+Progress (1): 141/317 kB
+Progress (1): 145/317 kB
+Progress (1): 150/317 kB
+Progress (2): 150/317 kB | 4.1/191 kB
+Progress (2): 154/317 kB | 4.1/191 kB
+Progress (2): 154/317 kB | 7.7/191 kB
+Progress (2): 154/317 kB | 12/191 kB 
+Progress (2): 158/317 kB | 12/191 kB
+Progress (2): 158/317 kB | 16/191 kB
+Progress (2): 162/317 kB | 16/191 kB
+Progress (2): 166/317 kB | 16/191 kB
+Progress (2): 166/317 kB | 20/191 kB
+Progress (2): 166/317 kB | 24/191 kB
+Progress (2): 166/317 kB | 28/191 kB
+Progress (2): 166/317 kB | 32/191 kB
+Progress (2): 170/317 kB | 32/191 kB
+Progress (2): 170/317 kB | 36/191 kB
+Progress (2): 174/317 kB | 36/191 kB
+Progress (2): 178/317 kB | 36/191 kB
+Progress (2): 182/317 kB | 36/191 kB
+Progress (2): 182/317 kB | 40/191 kB
+Progress (2): 182/317 kB | 44/191 kB
+Progress (2): 182/317 kB | 48/191 kB
+Progress (2): 182/317 kB | 53/191 kB
+Progress (2): 182/317 kB | 57/191 kB
+Progress (2): 182/317 kB | 61/191 kB
+Progress (2): 182/317 kB | 65/191 kB
+Progress (2): 186/317 kB | 65/191 kB
+Progress (2): 191/317 kB | 65/191 kB
+Progress (3): 191/317 kB | 65/191 kB | 4.1/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 7.7/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 12/74 kB 
+Progress (3): 191/317 kB | 65/191 kB | 16/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 20/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 24/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 28/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 32/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 36/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 40/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 44/74 kB
+Progress (3): 191/317 kB | 65/191 kB | 48/74 kB
+Progress (3): 191/317 kB | 69/191 kB | 48/74 kB
+Progress (3): 191/317 kB | 73/191 kB | 48/74 kB
+Progress (3): 191/317 kB | 77/191 kB | 48/74 kB
+Progress (3): 191/317 kB | 77/191 kB | 53/74 kB
+Progress (3): 191/317 kB | 77/191 kB | 57/74 kB
+Progress (3): 191/317 kB | 77/191 kB | 61/74 kB
+Progress (3): 191/317 kB | 77/191 kB | 65/74 kB
+Progress (3): 191/317 kB | 81/191 kB | 65/74 kB
+Progress (3): 191/317 kB | 81/191 kB | 69/74 kB
+Progress (3): 191/317 kB | 81/191 kB | 73/74 kB
+Progress (3): 191/317 kB | 85/191 kB | 73/74 kB
+Progress (3): 191/317 kB | 85/191 kB | 74 kB   
+Progress (3): 191/317 kB | 89/191 kB | 74 kB
+Progress (3): 191/317 kB | 93/191 kB | 74 kB
+Progress (3): 191/317 kB | 98/191 kB | 74 kB
+Progress (3): 191/317 kB | 102/191 kB | 74 kB
+Progress (3): 191/317 kB | 106/191 kB | 74 kB
+Progress (3): 191/317 kB | 110/191 kB | 74 kB
+Progress (3): 191/317 kB | 114/191 kB | 74 kB
+Progress (4): 191/317 kB | 114/191 kB | 74 kB | 4.1/215 kB
+Progress (4): 191/317 kB | 114/191 kB | 74 kB | 7.7/215 kB
+Progress (4): 191/317 kB | 114/191 kB | 74 kB | 12/215 kB 
+Progress (4): 191/317 kB | 114/191 kB | 74 kB | 16/215 kB
+Progress (4): 191/317 kB | 118/191 kB | 74 kB | 16/215 kB
+Progress (4): 195/317 kB | 118/191 kB | 74 kB | 16/215 kB
+Progress (4): 195/317 kB | 122/191 kB | 74 kB | 16/215 kB
+Progress (4): 199/317 kB | 122/191 kB | 74 kB | 16/215 kB
+Progress (4): 199/317 kB | 126/191 kB | 74 kB | 16/215 kB
+Progress (4): 203/317 kB | 126/191 kB | 74 kB | 16/215 kB
+Progress (4): 203/317 kB | 130/191 kB | 74 kB | 16/215 kB
+Progress (4): 207/317 kB | 130/191 kB | 74 kB | 16/215 kB
+Progress (4): 207/317 kB | 130/191 kB | 74 kB | 20/215 kB
+Progress (4): 207/317 kB | 130/191 kB | 74 kB | 24/215 kB
+Progress (4): 207/317 kB | 130/191 kB | 74 kB | 28/215 kB
+Progress (4): 207/317 kB | 130/191 kB | 74 kB | 32/215 kB
+Progress (4): 207/317 kB | 134/191 kB | 74 kB | 32/215 kB
+Progress (4): 207/317 kB | 139/191 kB | 74 kB | 32/215 kB
+Progress (4): 207/317 kB | 139/191 kB | 74 kB | 36/215 kB
+Progress (4): 207/317 kB | 143/191 kB | 74 kB | 36/215 kB
+Progress (4): 207/317 kB | 143/191 kB | 74 kB | 40/215 kB
+Progress (4): 207/317 kB | 147/191 kB | 74 kB | 40/215 kB
+Progress (4): 207/317 kB | 147/191 kB | 74 kB | 44/215 kB
+Progress (4): 207/317 kB | 147/191 kB | 74 kB | 48/215 kB
+Progress (4): 207/317 kB | 151/191 kB | 74 kB | 48/215 kB
+Progress (4): 207/317 kB | 155/191 kB | 74 kB | 48/215 kB
+Progress (4): 207/317 kB | 159/191 kB | 74 kB | 48/215 kB
+Progress (4): 207/317 kB | 163/191 kB | 74 kB | 48/215 kB
+Progress (4): 211/317 kB | 163/191 kB | 74 kB | 48/215 kB
+Progress (4): 215/317 kB | 163/191 kB | 74 kB | 48/215 kB
+Progress (4): 219/317 kB | 163/191 kB | 74 kB | 48/215 kB
+Progress (4): 223/317 kB | 163/191 kB | 74 kB | 48/215 kB
+Progress (4): 223/317 kB | 163/191 kB | 74 kB | 53/215 kB
+Progress (4): 223/317 kB | 163/191 kB | 74 kB | 57/215 kB
+Progress (4): 223/317 kB | 163/191 kB | 74 kB | 61/215 kB
+Progress (4): 223/317 kB | 163/191 kB | 74 kB | 65/215 kB
+Progress (4): 227/317 kB | 163/191 kB | 74 kB | 65/215 kB
+Progress (4): 227/317 kB | 167/191 kB | 74 kB | 65/215 kB
+Progress (4): 232/317 kB | 167/191 kB | 74 kB | 65/215 kB
+Progress (4): 232/317 kB | 171/191 kB | 74 kB | 65/215 kB
+Progress (4): 236/317 kB | 171/191 kB | 74 kB | 65/215 kB
+Progress (4): 236/317 kB | 171/191 kB | 74 kB | 69/215 kB
+Progress (4): 236/317 kB | 175/191 kB | 74 kB | 69/215 kB
+Progress (4): 240/317 kB | 175/191 kB | 74 kB | 69/215 kB
+Progress (4): 240/317 kB | 175/191 kB | 74 kB | 73/215 kB
+Progress (4): 240/317 kB | 179/191 kB | 74 kB | 73/215 kB
+Progress (4): 240/317 kB | 179/191 kB | 74 kB | 77/215 kB
+Progress (4): 240/317 kB | 179/191 kB | 74 kB | 81/215 kB
+Progress (4): 240/317 kB | 184/191 kB | 74 kB | 81/215 kB
+Progress (4): 240/317 kB | 188/191 kB | 74 kB | 81/215 kB
+Progress (4): 240/317 kB | 191 kB | 74 kB | 81/215 kB    
+Progress (4): 240/317 kB | 191 kB | 74 kB | 85/215 kB
+Progress (4): 240/317 kB | 191 kB | 74 kB | 89/215 kB
+Progress (4): 240/317 kB | 191 kB | 74 kB | 93/215 kB
+Progress (4): 240/317 kB | 191 kB | 74 kB | 98/215 kB
+Progress (4): 244/317 kB | 191 kB | 74 kB | 98/215 kB
+Progress (4): 248/317 kB | 191 kB | 74 kB | 98/215 kB
+Progress (4): 252/317 kB | 191 kB | 74 kB | 98/215 kB
+Progress (4): 256/317 kB | 191 kB | 74 kB | 98/215 kB
+Progress (4): 256/317 kB | 191 kB | 74 kB | 102/215 kB
+Progress (4): 260/317 kB | 191 kB | 74 kB | 102/215 kB
+Progress (4): 260/317 kB | 191 kB | 74 kB | 106/215 kB
+Progress (4): 264/317 kB | 191 kB | 74 kB | 106/215 kB
+Progress (4): 268/317 kB | 191 kB | 74 kB | 106/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 106/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 110/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 114/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 118/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 122/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 126/215 kB
+Progress (4): 272/317 kB | 191 kB | 74 kB | 130/215 kB
+Progress (4): 277/317 kB | 191 kB | 74 kB | 130/215 kB
+Progress (4): 281/317 kB | 191 kB | 74 kB | 130/215 kB
+Progress (4): 285/317 kB | 191 kB | 74 kB | 130/215 kB
+Progress (4): 289/317 kB | 191 kB | 74 kB | 130/215 kB
+Progress (4): 289/317 kB | 191 kB | 74 kB | 134/215 kB
+Progress (4): 293/317 kB | 191 kB | 74 kB | 134/215 kB
+Progress (4): 297/317 kB | 191 kB | 74 kB | 134/215 kB
+Progress (4): 297/317 kB | 191 kB | 74 kB | 139/215 kB
+Progress (4): 301/317 kB | 191 kB | 74 kB | 139/215 kB
+Progress (4): 301/317 kB | 191 kB | 74 kB | 143/215 kB
+Progress (4): 305/317 kB | 191 kB | 74 kB | 143/215 kB
+Progress (4): 305/317 kB | 191 kB | 74 kB | 147/215 kB
+Progress (4): 309/317 kB | 191 kB | 74 kB | 147/215 kB
+Progress (4): 313/317 kB | 191 kB | 74 kB | 147/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 147/215 kB    
+Progress (4): 317 kB | 191 kB | 74 kB | 151/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 155/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 159/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 163/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 167/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 171/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 175/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 179/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 184/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 188/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 192/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 196/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 200/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 204/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 208/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 212/215 kB
+Progress (4): 317 kB | 191 kB | 74 kB | 215 kB    
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 3.8/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 7.8/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 12/560 kB 
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 16/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 20/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 24/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 28/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 32/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 37/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 41/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 45/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 49/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 53/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 57/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 61/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 65/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 69/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 73/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 77/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 82/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 86/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 90/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 94/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 98/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 102/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 106/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 110/560 kB
+Progress (5): 317 kB | 191 kB | 74 kB | 215 kB | 114/560 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.0.1/plexus-io-3.0.1.jar (74 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+Progress (4): 317 kB | 191 kB | 215 kB | 118/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 123/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 127/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 131/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 135/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 139/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 143/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 147/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 151/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 155/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 159/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 163/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 168/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 172/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 176/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 180/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 184/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 188/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 192/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 196/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 200/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 204/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 209/560 kB
+Progress (4): 317 kB | 191 kB | 215 kB | 213/560 kB
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar (317 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar
+Progress (3): 191 kB | 215 kB | 217/560 kB
+Progress (3): 191 kB | 215 kB | 221/560 kB
+Progress (3): 191 kB | 215 kB | 225/560 kB
+Progress (3): 191 kB | 215 kB | 229/560 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.6.0/plexus-archiver-3.6.0.jar (191 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+Progress (2): 215 kB | 233/560 kB
+Progress (2): 215 kB | 237/560 kB
+Progress (2): 215 kB | 241/560 kB
+Progress (2): 215 kB | 245/560 kB
+Progress (2): 215 kB | 250/560 kB
+Progress (2): 215 kB | 254/560 kB
+Progress (2): 215 kB | 258/560 kB
+Progress (2): 215 kB | 262/560 kB
+Progress (2): 215 kB | 266/560 kB
+Progress (3): 215 kB | 266/560 kB | 4.1/56 kB
+Progress (3): 215 kB | 270/560 kB | 4.1/56 kB
+Progress (3): 215 kB | 274/560 kB | 4.1/56 kB
+Progress (3): 215 kB | 278/560 kB | 4.1/56 kB
+Progress (3): 215 kB | 278/560 kB | 7.5/56 kB
+Progress (3): 215 kB | 282/560 kB | 7.5/56 kB
+Progress (3): 215 kB | 286/560 kB | 7.5/56 kB
+Progress (3): 215 kB | 286/560 kB | 12/56 kB 
+Progress (3): 215 kB | 286/560 kB | 16/56 kB
+Progress (3): 215 kB | 286/560 kB | 20/56 kB
+Progress (3): 215 kB | 286/560 kB | 24/56 kB
+Progress (3): 215 kB | 286/560 kB | 28/56 kB
+Progress (3): 215 kB | 290/560 kB | 28/56 kB
+Progress (3): 215 kB | 290/560 kB | 32/56 kB
+Progress (3): 215 kB | 295/560 kB | 32/56 kB
+Progress (3): 215 kB | 295/560 kB | 36/56 kB
+Progress (3): 215 kB | 299/560 kB | 36/56 kB
+Progress (3): 215 kB | 299/560 kB | 40/56 kB
+Progress (3): 215 kB | 303/560 kB | 40/56 kB
+Progress (3): 215 kB | 303/560 kB | 44/56 kB
+Progress (3): 215 kB | 303/560 kB | 48/56 kB
+Progress (3): 215 kB | 303/560 kB | 53/56 kB
+Progress (3): 215 kB | 303/560 kB | 56 kB   
+Progress (3): 215 kB | 307/560 kB | 56 kB
+Progress (3): 215 kB | 311/560 kB | 56 kB
+Progress (3): 215 kB | 315/560 kB | 56 kB
+Progress (3): 215 kB | 319/560 kB | 56 kB
+Progress (3): 215 kB | 323/560 kB | 56 kB
+Progress (3): 215 kB | 327/560 kB | 56 kB
+Progress (3): 215 kB | 331/560 kB | 56 kB
+Progress (3): 215 kB | 336/560 kB | 56 kB
+Progress (3): 215 kB | 340/560 kB | 56 kB
+Progress (3): 215 kB | 344/560 kB | 56 kB
+Progress (3): 215 kB | 348/560 kB | 56 kB
+Progress (3): 215 kB | 352/560 kB | 56 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar (215 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.6.0/maven-core-3.6.0.jar
+Progress (2): 356/560 kB | 56 kB
+Progress (2): 360/560 kB | 56 kB
+Progress (2): 364/560 kB | 56 kB
+Progress (2): 368/560 kB | 56 kB
+Progress (2): 372/560 kB | 56 kB
+Progress (2): 376/560 kB | 56 kB
+Progress (2): 381/560 kB | 56 kB
+Progress (2): 385/560 kB | 56 kB
+Progress (2): 389/560 kB | 56 kB
+Progress (2): 393/560 kB | 56 kB
+Progress (2): 397/560 kB | 56 kB
+Progress (2): 401/560 kB | 56 kB
+Progress (2): 405/560 kB | 56 kB
+Progress (2): 409/560 kB | 56 kB
+Progress (2): 413/560 kB | 56 kB
+Progress (2): 417/560 kB | 56 kB
+Progress (2): 422/560 kB | 56 kB
+Progress (2): 426/560 kB | 56 kB
+Progress (2): 430/560 kB | 56 kB
+Progress (2): 434/560 kB | 56 kB
+Progress (2): 438/560 kB | 56 kB
+Progress (2): 442/560 kB | 56 kB
+Progress (2): 446/560 kB | 56 kB
+Progress (2): 450/560 kB | 56 kB
+Progress (2): 454/560 kB | 56 kB
+Progress (2): 458/560 kB | 56 kB
+Progress (2): 463/560 kB | 56 kB
+Progress (2): 467/560 kB | 56 kB
+Progress (2): 471/560 kB | 56 kB
+Progress (2): 475/560 kB | 56 kB
+Progress (2): 479/560 kB | 56 kB
+Progress (2): 483/560 kB | 56 kB
+Progress (2): 487/560 kB | 56 kB
+Progress (2): 491/560 kB | 56 kB
+Progress (2): 495/560 kB | 56 kB
+Progress (2): 499/560 kB | 56 kB
+Progress (2): 503/560 kB | 56 kB
+Progress (2): 508/560 kB | 56 kB
+Progress (2): 512/560 kB | 56 kB
+Progress (2): 516/560 kB | 56 kB
+Progress (2): 520/560 kB | 56 kB
+Progress (2): 524/560 kB | 56 kB
+Progress (2): 528/560 kB | 56 kB
+Progress (2): 532/560 kB | 56 kB
+Progress (3): 532/560 kB | 56 kB | 4.1/54 kB
+Progress (3): 532/560 kB | 56 kB | 7.7/54 kB
+Progress (3): 532/560 kB | 56 kB | 12/54 kB 
+Progress (3): 532/560 kB | 56 kB | 16/54 kB
+Progress (3): 532/560 kB | 56 kB | 20/54 kB
+Progress (3): 532/560 kB | 56 kB | 24/54 kB
+Progress (3): 532/560 kB | 56 kB | 28/54 kB
+Progress (3): 532/560 kB | 56 kB | 32/54 kB
+Progress (3): 532/560 kB | 56 kB | 36/54 kB
+Progress (3): 532/560 kB | 56 kB | 40/54 kB
+Progress (3): 532/560 kB | 56 kB | 44/54 kB
+Progress (3): 532/560 kB | 56 kB | 48/54 kB
+Progress (3): 532/560 kB | 56 kB | 53/54 kB
+Progress (3): 532/560 kB | 56 kB | 54 kB   
+Progress (4): 532/560 kB | 56 kB | 54 kB | 4.1/109 kB
+Progress (4): 532/560 kB | 56 kB | 54 kB | 7.7/109 kB
+Progress (4): 532/560 kB | 56 kB | 54 kB | 12/109 kB 
+Progress (4): 532/560 kB | 56 kB | 54 kB | 16/109 kB
+                                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar (56 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.6.0/maven-settings-3.6.0.jar
+Progress (3): 536/560 kB | 54 kB | 16/109 kB
+Progress (3): 540/560 kB | 54 kB | 16/109 kB
+Progress (3): 544/560 kB | 54 kB | 16/109 kB
+Progress (3): 549/560 kB | 54 kB | 16/109 kB
+Progress (3): 553/560 kB | 54 kB | 16/109 kB
+Progress (3): 557/560 kB | 54 kB | 16/109 kB
+Progress (3): 560 kB | 54 kB | 16/109 kB    
+Progress (3): 560 kB | 54 kB | 20/109 kB
+Progress (3): 560 kB | 54 kB | 24/109 kB
+Progress (3): 560 kB | 54 kB | 28/109 kB
+Progress (3): 560 kB | 54 kB | 32/109 kB
+Progress (3): 560 kB | 54 kB | 36/109 kB
+Progress (3): 560 kB | 54 kB | 40/109 kB
+Progress (3): 560 kB | 54 kB | 45/109 kB
+Progress (3): 560 kB | 54 kB | 49/109 kB
+Progress (3): 560 kB | 54 kB | 53/109 kB
+Progress (3): 560 kB | 54 kB | 57/109 kB
+Progress (3): 560 kB | 54 kB | 61/109 kB
+Progress (3): 560 kB | 54 kB | 65/109 kB
+Progress (3): 560 kB | 54 kB | 69/109 kB
+Progress (3): 560 kB | 54 kB | 73/109 kB
+Progress (3): 560 kB | 54 kB | 77/109 kB
+Progress (3): 560 kB | 54 kB | 81/109 kB
+Progress (3): 560 kB | 54 kB | 85/109 kB
+Progress (3): 560 kB | 54 kB | 89/109 kB
+Progress (3): 560 kB | 54 kB | 93/109 kB
+Progress (3): 560 kB | 54 kB | 98/109 kB
+Progress (3): 560 kB | 54 kB | 102/109 kB
+Progress (3): 560 kB | 54 kB | 106/109 kB
+Progress (3): 560 kB | 54 kB | 109 kB    
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar (54 kB at 9.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.jar
+Progress (3): 560 kB | 109 kB | 4.1/45 kB
+Progress (3): 560 kB | 109 kB | 7.7/45 kB
+Progress (3): 560 kB | 109 kB | 12/45 kB 
+Progress (3): 560 kB | 109 kB | 16/45 kB
+Progress (3): 560 kB | 109 kB | 20/45 kB
+Progress (3): 560 kB | 109 kB | 24/45 kB
+Progress (3): 560 kB | 109 kB | 28/45 kB
+Progress (3): 560 kB | 109 kB | 32/45 kB
+Progress (3): 560 kB | 109 kB | 36/45 kB
+Progress (3): 560 kB | 109 kB | 40/45 kB
+Progress (3): 560 kB | 109 kB | 45/45 kB
+Progress (3): 560 kB | 109 kB | 45 kB   
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.16.1/commons-compress-1.16.1.jar (560 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar (109 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+Progress (2): 45 kB | 4.1/43 kB
+Progress (2): 45 kB | 7.7/43 kB
+Progress (2): 45 kB | 12/43 kB 
+Progress (2): 45 kB | 16/43 kB
+Progress (2): 45 kB | 20/43 kB
+Progress (2): 45 kB | 24/43 kB
+Progress (2): 45 kB | 28/43 kB
+Progress (2): 45 kB | 32/43 kB
+Progress (2): 45 kB | 36/43 kB
+Progress (2): 45 kB | 40/43 kB
+Progress (2): 45 kB | 43 kB   
+Progress (3): 45 kB | 43 kB | 4.1/28 kB
+Progress (3): 45 kB | 43 kB | 7.7/28 kB
+Progress (3): 45 kB | 43 kB | 12/28 kB 
+Progress (3): 45 kB | 43 kB | 16/28 kB
+Progress (3): 45 kB | 43 kB | 20/28 kB
+Progress (3): 45 kB | 43 kB | 24/28 kB
+Progress (3): 45 kB | 43 kB | 28 kB   
+Progress (4): 45 kB | 43 kB | 28 kB | 4.1/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 7.7/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 12/85 kB 
+Progress (4): 45 kB | 43 kB | 28 kB | 16/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 20/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 24/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 28/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 32/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 36/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 40/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 44/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 48/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 53/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 57/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 61/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 65/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 69/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 73/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 77/85 kB
+Progress (4): 45 kB | 43 kB | 28 kB | 81/85 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.jar (43 kB at 7.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+Progress (3): 45 kB | 28 kB | 85/85 kB
+Progress (3): 45 kB | 28 kB | 85 kB   
+                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar (28 kB at 4.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.0/maven-builder-support-3.6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar (85 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.0/maven-repository-metadata-3.6.0.jar
+Progress (2): 45 kB | 4.1/13 kB
+Progress (2): 45 kB | 7.7/13 kB
+Progress (2): 45 kB | 12/13 kB 
+Progress (2): 45 kB | 13 kB   
+Progress (3): 45 kB | 13 kB | 4.1/15 kB
+Progress (3): 45 kB | 13 kB | 7.7/15 kB
+Progress (3): 45 kB | 13 kB | 12/15 kB 
+Progress (3): 45 kB | 13 kB | 15 kB   
+Progress (4): 45 kB | 13 kB | 15 kB | 4.1/27 kB
+Progress (4): 45 kB | 13 kB | 15 kB | 7.5/27 kB
+Progress (4): 45 kB | 13 kB | 15 kB | 12/27 kB 
+Progress (4): 45 kB | 13 kB | 15 kB | 16/27 kB
+Progress (4): 45 kB | 13 kB | 15 kB | 20/27 kB
+Progress (4): 45 kB | 13 kB | 15 kB | 24/27 kB
+Progress (4): 45 kB | 13 kB | 15 kB | 27 kB   
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 4.1/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 7.7/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 12/632 kB 
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 16/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 20/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 24/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 28/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 32/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 36/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 40/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 45/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 49/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 53/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 57/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 61/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 65/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 69/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 73/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 77/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 81/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 86/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 90/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 94/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 98/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 102/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 106/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 110/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 114/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 118/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 122/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 126/632 kB
+Progress (5): 45 kB | 13 kB | 15 kB | 27 kB | 131/632 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 2.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.0/maven-model-builder-3.6.0.jar
+Progress (4): 45 kB | 15 kB | 27 kB | 135/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 139/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 143/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 147/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 151/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 155/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 159/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 163/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 167/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 172/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 176/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 180/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 184/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 188/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 192/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 196/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 200/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 204/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 208/632 kB
+Progress (4): 45 kB | 15 kB | 27 kB | 213/632 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.6.0/maven-repository-metadata-3.6.0.jar (27 kB at 4.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.0/maven-resolver-provider-3.6.0.jar
+Progress (3): 45 kB | 15 kB | 217/632 kB
+Progress (3): 45 kB | 15 kB | 221/632 kB
+Progress (3): 45 kB | 15 kB | 225/632 kB
+Progress (3): 45 kB | 15 kB | 229/632 kB
+                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.6.0/maven-builder-support-3.6.0.jar (15 kB at 2.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+Progress (2): 45 kB | 233/632 kB
+Progress (2): 45 kB | 237/632 kB
+Progress (2): 45 kB | 241/632 kB
+Progress (2): 45 kB | 245/632 kB
+Progress (2): 45 kB | 249/632 kB
+Progress (2): 45 kB | 253/632 kB
+Progress (2): 45 kB | 258/632 kB
+Progress (2): 45 kB | 262/632 kB
+Progress (2): 45 kB | 266/632 kB
+Progress (2): 45 kB | 270/632 kB
+Progress (2): 45 kB | 274/632 kB
+Progress (2): 45 kB | 278/632 kB
+Progress (2): 45 kB | 282/632 kB
+Progress (2): 45 kB | 286/632 kB
+Progress (2): 45 kB | 290/632 kB
+Progress (2): 45 kB | 294/632 kB
+Progress (2): 45 kB | 299/632 kB
+Progress (2): 45 kB | 303/632 kB
+Progress (2): 45 kB | 307/632 kB
+Progress (2): 45 kB | 311/632 kB
+Progress (2): 45 kB | 315/632 kB
+Progress (2): 45 kB | 319/632 kB
+Progress (2): 45 kB | 323/632 kB
+Progress (2): 45 kB | 327/632 kB
+Progress (2): 45 kB | 331/632 kB
+Progress (2): 45 kB | 335/632 kB
+Progress (2): 45 kB | 339/632 kB
+Progress (2): 45 kB | 344/632 kB
+Progress (2): 45 kB | 348/632 kB
+Progress (2): 45 kB | 352/632 kB
+Progress (2): 45 kB | 356/632 kB
+Progress (2): 45 kB | 360/632 kB
+Progress (2): 45 kB | 364/632 kB
+Progress (2): 45 kB | 368/632 kB
+Progress (2): 45 kB | 372/632 kB
+Progress (2): 45 kB | 376/632 kB
+Progress (2): 45 kB | 380/632 kB
+Progress (2): 45 kB | 385/632 kB
+Progress (2): 45 kB | 389/632 kB
+Progress (2): 45 kB | 393/632 kB
+Progress (2): 45 kB | 397/632 kB
+Progress (2): 45 kB | 401/632 kB
+Progress (2): 45 kB | 405/632 kB
+Progress (2): 45 kB | 409/632 kB
+Progress (2): 45 kB | 413/632 kB
+Progress (2): 45 kB | 417/632 kB
+Progress (2): 45 kB | 421/632 kB
+Progress (2): 45 kB | 426/632 kB
+Progress (2): 45 kB | 430/632 kB
+Progress (2): 45 kB | 434/632 kB
+Progress (2): 45 kB | 438/632 kB
+Progress (2): 45 kB | 442/632 kB
+Progress (2): 45 kB | 446/632 kB
+Progress (2): 45 kB | 450/632 kB
+Progress (2): 45 kB | 454/632 kB
+Progress (2): 45 kB | 458/632 kB
+Progress (2): 45 kB | 462/632 kB
+Progress (2): 45 kB | 466/632 kB
+Progress (2): 45 kB | 471/632 kB
+Progress (2): 45 kB | 475/632 kB
+Progress (2): 45 kB | 479/632 kB
+Progress (2): 45 kB | 483/632 kB
+Progress (2): 45 kB | 487/632 kB
+Progress (2): 45 kB | 491/632 kB
+Progress (2): 45 kB | 495/632 kB
+Progress (2): 45 kB | 499/632 kB
+Progress (2): 45 kB | 503/632 kB
+Progress (2): 45 kB | 507/632 kB
+Progress (2): 45 kB | 512/632 kB
+Progress (2): 45 kB | 516/632 kB
+Progress (2): 45 kB | 520/632 kB
+Progress (2): 45 kB | 524/632 kB
+Progress (2): 45 kB | 528/632 kB
+Progress (2): 45 kB | 532/632 kB
+Progress (2): 45 kB | 536/632 kB
+Progress (2): 45 kB | 540/632 kB
+Progress (2): 45 kB | 544/632 kB
+Progress (2): 45 kB | 548/632 kB
+Progress (2): 45 kB | 552/632 kB
+Progress (2): 45 kB | 557/632 kB
+Progress (2): 45 kB | 561/632 kB
+Progress (2): 45 kB | 565/632 kB
+Progress (2): 45 kB | 569/632 kB
+Progress (2): 45 kB | 573/632 kB
+Progress (2): 45 kB | 577/632 kB
+Progress (2): 45 kB | 581/632 kB
+Progress (2): 45 kB | 585/632 kB
+Progress (2): 45 kB | 589/632 kB
+Progress (3): 45 kB | 589/632 kB | 4.1/67 kB
+Progress (4): 45 kB | 589/632 kB | 4.1/67 kB | 4.1/41 kB
+Progress (4): 45 kB | 589/632 kB | 7.7/67 kB | 4.1/41 kB
+Progress (4): 45 kB | 589/632 kB | 12/67 kB | 4.1/41 kB 
+Progress (4): 45 kB | 589/632 kB | 12/67 kB | 7.7/41 kB
+Progress (4): 45 kB | 589/632 kB | 12/67 kB | 12/41 kB 
+Progress (4): 45 kB | 589/632 kB | 12/67 kB | 16/41 kB
+Progress (4): 45 kB | 589/632 kB | 16/67 kB | 16/41 kB
+Progress (4): 45 kB | 589/632 kB | 20/67 kB | 16/41 kB
+Progress (4): 45 kB | 589/632 kB | 24/67 kB | 16/41 kB
+Progress (4): 45 kB | 589/632 kB | 28/67 kB | 16/41 kB
+Progress (4): 45 kB | 589/632 kB | 28/67 kB | 20/41 kB
+Progress (4): 45 kB | 593/632 kB | 28/67 kB | 20/41 kB
+Progress (4): 45 kB | 593/632 kB | 28/67 kB | 24/41 kB
+Progress (4): 45 kB | 598/632 kB | 28/67 kB | 24/41 kB
+Progress (4): 45 kB | 598/632 kB | 32/67 kB | 24/41 kB
+Progress (4): 45 kB | 598/632 kB | 36/67 kB | 24/41 kB
+Progress (4): 45 kB | 598/632 kB | 36/67 kB | 28/41 kB
+Progress (4): 45 kB | 598/632 kB | 40/67 kB | 28/41 kB
+Progress (4): 45 kB | 598/632 kB | 44/67 kB | 28/41 kB
+Progress (4): 45 kB | 602/632 kB | 44/67 kB | 28/41 kB
+Progress (4): 45 kB | 602/632 kB | 44/67 kB | 32/41 kB
+Progress (4): 45 kB | 606/632 kB | 44/67 kB | 32/41 kB
+Progress (4): 45 kB | 606/632 kB | 48/67 kB | 32/41 kB
+Progress (4): 45 kB | 606/632 kB | 48/67 kB | 36/41 kB
+Progress (4): 45 kB | 606/632 kB | 53/67 kB | 36/41 kB
+Progress (4): 45 kB | 606/632 kB | 53/67 kB | 40/41 kB
+Progress (4): 45 kB | 606/632 kB | 53/67 kB | 41 kB   
+Progress (4): 45 kB | 606/632 kB | 57/67 kB | 41 kB
+Progress (4): 45 kB | 606/632 kB | 61/67 kB | 41 kB
+Progress (4): 45 kB | 610/632 kB | 61/67 kB | 41 kB
+Progress (4): 45 kB | 614/632 kB | 61/67 kB | 41 kB
+Progress (4): 45 kB | 618/632 kB | 61/67 kB | 41 kB
+Progress (4): 45 kB | 622/632 kB | 61/67 kB | 41 kB
+Progress (4): 45 kB | 622/632 kB | 65/67 kB | 41 kB
+Progress (4): 45 kB | 626/632 kB | 65/67 kB | 41 kB
+Progress (4): 45 kB | 630/632 kB | 65/67 kB | 41 kB
+Progress (4): 45 kB | 632 kB | 65/67 kB | 41 kB    
+Progress (4): 45 kB | 632 kB | 67 kB | 41 kB   
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.6.0/maven-settings-3.6.0.jar (45 kB at 7.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.3.1/maven-resolver-impl-1.3.1.jar
+Progress (4): 632 kB | 67 kB | 41 kB | 4.1/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 7.7/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 12/178 kB 
+Progress (4): 632 kB | 67 kB | 41 kB | 16/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 20/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 24/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 28/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 32/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 36/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 40/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 45/178 kB
+Progress (4): 632 kB | 67 kB | 41 kB | 49/178 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.6.0/maven-resolver-provider-3.6.0.jar (67 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.3.1/maven-resolver-api-1.3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 6.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.3.1/maven-resolver-spi-1.3.1.jar
+Progress (2): 632 kB | 53/178 kB
+Progress (2): 632 kB | 57/178 kB
+Progress (2): 632 kB | 61/178 kB
+Progress (2): 632 kB | 65/178 kB
+Progress (2): 632 kB | 69/178 kB
+Progress (2): 632 kB | 73/178 kB
+Progress (3): 632 kB | 73/178 kB | 4.1/182 kB
+Progress (3): 632 kB | 77/178 kB | 4.1/182 kB
+Progress (3): 632 kB | 81/178 kB | 4.1/182 kB
+Progress (3): 632 kB | 81/178 kB | 8.2/182 kB
+Progress (3): 632 kB | 86/178 kB | 8.2/182 kB
+Progress (3): 632 kB | 90/178 kB | 8.2/182 kB
+Progress (3): 632 kB | 94/178 kB | 8.2/182 kB
+Progress (3): 632 kB | 98/178 kB | 8.2/182 kB
+Progress (3): 632 kB | 98/178 kB | 12/182 kB 
+Progress (3): 632 kB | 98/178 kB | 16/182 kB
+Progress (3): 632 kB | 98/178 kB | 20/182 kB
+Progress (3): 632 kB | 98/178 kB | 25/182 kB
+Progress (3): 632 kB | 98/178 kB | 29/182 kB
+Progress (3): 632 kB | 98/178 kB | 33/182 kB
+Progress (3): 632 kB | 98/178 kB | 37/182 kB
+Progress (3): 632 kB | 98/178 kB | 41/182 kB
+Progress (3): 632 kB | 98/178 kB | 45/182 kB
+Progress (3): 632 kB | 98/178 kB | 49/182 kB
+Progress (3): 632 kB | 98/178 kB | 53/182 kB
+Progress (3): 632 kB | 98/178 kB | 57/182 kB
+Progress (3): 632 kB | 98/178 kB | 61/182 kB
+Progress (3): 632 kB | 98/178 kB | 66/182 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.6.0/maven-core-3.6.0.jar (632 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.3.1/maven-resolver-util-1.3.1.jar
+Progress (2): 102/178 kB | 66/182 kB
+Progress (2): 106/178 kB | 66/182 kB
+Progress (2): 106/178 kB | 70/182 kB
+Progress (2): 106/178 kB | 74/182 kB
+Progress (2): 106/178 kB | 78/182 kB
+Progress (2): 106/178 kB | 82/182 kB
+Progress (2): 110/178 kB | 82/182 kB
+Progress (2): 114/178 kB | 82/182 kB
+Progress (2): 114/178 kB | 86/182 kB
+Progress (2): 114/178 kB | 90/182 kB
+Progress (2): 118/178 kB | 90/182 kB
+Progress (2): 118/178 kB | 94/182 kB
+Progress (2): 122/178 kB | 94/182 kB
+Progress (2): 122/178 kB | 98/182 kB
+Progress (2): 126/178 kB | 98/182 kB
+Progress (2): 131/178 kB | 98/182 kB
+Progress (2): 131/178 kB | 102/182 kB
+Progress (2): 135/178 kB | 102/182 kB
+Progress (2): 135/178 kB | 106/182 kB
+Progress (2): 139/178 kB | 106/182 kB
+Progress (2): 139/178 kB | 111/182 kB
+Progress (2): 143/178 kB | 111/182 kB
+Progress (2): 143/178 kB | 115/182 kB
+Progress (2): 147/178 kB | 115/182 kB
+Progress (2): 147/178 kB | 119/182 kB
+Progress (2): 147/178 kB | 123/182 kB
+Progress (2): 147/178 kB | 127/182 kB
+Progress (2): 147/178 kB | 131/182 kB
+Progress (2): 151/178 kB | 131/182 kB
+Progress (2): 155/178 kB | 131/182 kB
+Progress (2): 159/178 kB | 131/182 kB
+Progress (2): 163/178 kB | 131/182 kB
+Progress (2): 163/178 kB | 135/182 kB
+Progress (2): 163/178 kB | 139/182 kB
+Progress (2): 163/178 kB | 143/182 kB
+Progress (2): 163/178 kB | 147/182 kB
+Progress (2): 163/178 kB | 152/182 kB
+Progress (2): 167/178 kB | 152/182 kB
+Progress (2): 167/178 kB | 156/182 kB
+Progress (2): 172/178 kB | 156/182 kB
+Progress (2): 172/178 kB | 160/182 kB
+Progress (2): 172/178 kB | 164/182 kB
+Progress (2): 176/178 kB | 164/182 kB
+Progress (2): 178 kB | 164/182 kB    
+Progress (2): 178 kB | 168/182 kB
+Progress (2): 178 kB | 172/182 kB
+Progress (2): 178 kB | 176/182 kB
+Progress (2): 178 kB | 180/182 kB
+Progress (2): 178 kB | 182 kB    
+Progress (3): 178 kB | 182 kB | 4.1/37 kB
+Progress (3): 178 kB | 182 kB | 7.7/37 kB
+Progress (3): 178 kB | 182 kB | 12/37 kB 
+Progress (3): 178 kB | 182 kB | 16/37 kB
+Progress (3): 178 kB | 182 kB | 20/37 kB
+Progress (3): 178 kB | 182 kB | 24/37 kB
+Progress (3): 178 kB | 182 kB | 28/37 kB
+Progress (3): 178 kB | 182 kB | 32/37 kB
+Progress (3): 178 kB | 182 kB | 36/37 kB
+Progress (3): 178 kB | 182 kB | 37 kB   
+Progress (4): 178 kB | 182 kB | 37 kB | 4.1/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 7.7/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 12/149 kB 
+Progress (4): 178 kB | 182 kB | 37 kB | 16/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 20/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 24/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 28/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 32/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 36/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 40/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 45/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 49/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 53/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 57/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 61/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 65/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 69/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 73/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 77/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 81/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 86/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 90/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 94/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 98/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 102/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 106/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 110/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 114/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 118/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 122/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 126/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 131/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 135/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 139/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 143/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 147/149 kB
+Progress (4): 178 kB | 182 kB | 37 kB | 149 kB    
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 4.1/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 7.7/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 12/160 kB 
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 16/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 20/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 24/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 28/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 32/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 36/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 40/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 44/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 48/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 53/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 57/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 61/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 65/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 69/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 73/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 77/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 81/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 85/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 89/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 93/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 98/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 102/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 106/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 110/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 114/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 118/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 122/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 126/160 kB
+Progress (5): 178 kB | 182 kB | 37 kB | 149 kB | 130/160 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.6.0/maven-model-builder-3.6.0.jar (178 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+Progress (4): 182 kB | 37 kB | 149 kB | 134/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 139/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 143/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 147/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 151/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 155/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 159/160 kB
+Progress (4): 182 kB | 37 kB | 149 kB | 160 kB    
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.3.1/maven-resolver-impl-1.3.1.jar (182 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.3.1/maven-resolver-spi-1.3.1.jar (37 kB at 5.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1-no_aop.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.3.1/maven-resolver-api-1.3.1.jar (149 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+Progress (2): 160 kB | 4.1/167 kB
+Progress (2): 160 kB | 7.7/167 kB
+Progress (2): 160 kB | 12/167 kB 
+Progress (2): 160 kB | 16/167 kB
+Progress (2): 160 kB | 20/167 kB
+Progress (2): 160 kB | 24/167 kB
+Progress (2): 160 kB | 28/167 kB
+Progress (2): 160 kB | 32/167 kB
+Progress (2): 160 kB | 36/167 kB
+Progress (2): 160 kB | 40/167 kB
+Progress (2): 160 kB | 44/167 kB
+Progress (2): 160 kB | 48/167 kB
+Progress (2): 160 kB | 53/167 kB
+Progress (2): 160 kB | 57/167 kB
+Progress (2): 160 kB | 61/167 kB
+Progress (2): 160 kB | 65/167 kB
+Progress (2): 160 kB | 69/167 kB
+Progress (2): 160 kB | 73/167 kB
+Progress (2): 160 kB | 77/167 kB
+Progress (2): 160 kB | 81/167 kB
+Progress (2): 160 kB | 85/167 kB
+Progress (2): 160 kB | 89/167 kB
+Progress (2): 160 kB | 93/167 kB
+Progress (2): 160 kB | 98/167 kB
+Progress (2): 160 kB | 102/167 kB
+Progress (2): 160 kB | 106/167 kB
+Progress (2): 160 kB | 110/167 kB
+Progress (2): 160 kB | 114/167 kB
+Progress (2): 160 kB | 118/167 kB
+Progress (2): 160 kB | 122/167 kB
+Progress (2): 160 kB | 126/167 kB
+Progress (2): 160 kB | 130/167 kB
+Progress (2): 160 kB | 134/167 kB
+Progress (2): 160 kB | 139/167 kB
+Progress (2): 160 kB | 143/167 kB
+Progress (2): 160 kB | 147/167 kB
+Progress (2): 160 kB | 151/167 kB
+Progress (2): 160 kB | 155/167 kB
+Progress (2): 160 kB | 159/167 kB
+Progress (2): 160 kB | 163/167 kB
+Progress (2): 160 kB | 167 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.3.1/maven-resolver-util-1.3.1.jar (160 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/25.1-android/guava-25.1-android.jar
+Progress (2): 167 kB | 4.1/379 kB
+Progress (2): 167 kB | 7.7/379 kB
+Progress (2): 167 kB | 12/379 kB 
+Progress (2): 167 kB | 16/379 kB
+Progress (2): 167 kB | 20/379 kB
+Progress (2): 167 kB | 24/379 kB
+Progress (2): 167 kB | 28/379 kB
+Progress (2): 167 kB | 32/379 kB
+Progress (2): 167 kB | 36/379 kB
+Progress (2): 167 kB | 40/379 kB
+Progress (2): 167 kB | 44/379 kB
+Progress (2): 167 kB | 48/379 kB
+Progress (2): 167 kB | 52/379 kB
+Progress (2): 167 kB | 57/379 kB
+Progress (2): 167 kB | 61/379 kB
+Progress (2): 167 kB | 65/379 kB
+Progress (2): 167 kB | 69/379 kB
+Progress (2): 167 kB | 73/379 kB
+Progress (2): 167 kB | 77/379 kB
+Progress (2): 167 kB | 81/379 kB
+Progress (2): 167 kB | 85/379 kB
+Progress (2): 167 kB | 89/379 kB
+Progress (2): 167 kB | 93/379 kB
+Progress (2): 167 kB | 98/379 kB
+Progress (2): 167 kB | 102/379 kB
+Progress (2): 167 kB | 106/379 kB
+Progress (2): 167 kB | 110/379 kB
+Progress (2): 167 kB | 114/379 kB
+Progress (2): 167 kB | 118/379 kB
+Progress (2): 167 kB | 122/379 kB
+Progress (2): 167 kB | 126/379 kB
+Progress (2): 167 kB | 130/379 kB
+Progress (2): 167 kB | 134/379 kB
+Progress (2): 167 kB | 139/379 kB
+Progress (2): 167 kB | 143/379 kB
+Progress (2): 167 kB | 147/379 kB
+Progress (2): 167 kB | 151/379 kB
+Progress (2): 167 kB | 155/379 kB
+Progress (2): 167 kB | 159/379 kB
+Progress (2): 167 kB | 163/379 kB
+Progress (2): 167 kB | 167/379 kB
+Progress (2): 167 kB | 171/379 kB
+Progress (2): 167 kB | 175/379 kB
+Progress (2): 167 kB | 179/379 kB
+Progress (2): 167 kB | 184/379 kB
+Progress (2): 167 kB | 188/379 kB
+Progress (2): 167 kB | 192/379 kB
+Progress (2): 167 kB | 196/379 kB
+Progress (2): 167 kB | 200/379 kB
+Progress (2): 167 kB | 204/379 kB
+Progress (2): 167 kB | 208/379 kB
+Progress (2): 167 kB | 212/379 kB
+Progress (2): 167 kB | 216/379 kB
+Progress (2): 167 kB | 220/379 kB
+Progress (2): 167 kB | 225/379 kB
+Progress (2): 167 kB | 229/379 kB
+Progress (2): 167 kB | 233/379 kB
+Progress (2): 167 kB | 237/379 kB
+Progress (2): 167 kB | 241/379 kB
+Progress (2): 167 kB | 245/379 kB
+Progress (2): 167 kB | 249/379 kB
+Progress (2): 167 kB | 253/379 kB
+Progress (2): 167 kB | 257/379 kB
+Progress (3): 167 kB | 257/379 kB | 4.1/521 kB
+Progress (3): 167 kB | 257/379 kB | 7.7/521 kB
+Progress (3): 167 kB | 257/379 kB | 12/521 kB 
+Progress (3): 167 kB | 257/379 kB | 16/521 kB
+Progress (3): 167 kB | 257/379 kB | 20/521 kB
+Progress (3): 167 kB | 257/379 kB | 24/521 kB
+Progress (3): 167 kB | 257/379 kB | 28/521 kB
+Progress (3): 167 kB | 257/379 kB | 32/521 kB
+Progress (3): 167 kB | 257/379 kB | 36/521 kB
+Progress (3): 167 kB | 257/379 kB | 40/521 kB
+Progress (3): 167 kB | 257/379 kB | 44/521 kB
+Progress (3): 167 kB | 257/379 kB | 48/521 kB
+Progress (3): 167 kB | 257/379 kB | 52/521 kB
+Progress (3): 167 kB | 257/379 kB | 57/521 kB
+Progress (3): 167 kB | 257/379 kB | 61/521 kB
+Progress (3): 167 kB | 257/379 kB | 65/521 kB
+Progress (3): 167 kB | 257/379 kB | 69/521 kB
+Progress (3): 167 kB | 261/379 kB | 69/521 kB
+Progress (3): 167 kB | 265/379 kB | 69/521 kB
+Progress (3): 167 kB | 265/379 kB | 73/521 kB
+Progress (3): 167 kB | 265/379 kB | 77/521 kB
+Progress (3): 167 kB | 270/379 kB | 77/521 kB
+Progress (3): 167 kB | 270/379 kB | 81/521 kB
+Progress (3): 167 kB | 274/379 kB | 81/521 kB
+Progress (3): 167 kB | 278/379 kB | 81/521 kB
+Progress (3): 167 kB | 282/379 kB | 81/521 kB
+Progress (3): 167 kB | 286/379 kB | 81/521 kB
+Progress (3): 167 kB | 290/379 kB | 81/521 kB
+Progress (3): 167 kB | 290/379 kB | 85/521 kB
+Progress (3): 167 kB | 290/379 kB | 89/521 kB
+Progress (3): 167 kB | 290/379 kB | 93/521 kB
+Progress (3): 167 kB | 290/379 kB | 98/521 kB
+Progress (3): 167 kB | 290/379 kB | 102/521 kB
+Progress (3): 167 kB | 290/379 kB | 106/521 kB
+Progress (3): 167 kB | 290/379 kB | 110/521 kB
+Progress (3): 167 kB | 290/379 kB | 114/521 kB
+Progress (3): 167 kB | 290/379 kB | 118/521 kB
+Progress (3): 167 kB | 290/379 kB | 122/521 kB
+Progress (3): 167 kB | 290/379 kB | 126/521 kB
+Progress (3): 167 kB | 290/379 kB | 130/521 kB
+Progress (4): 167 kB | 290/379 kB | 130/521 kB | 4.1/4.5 kB
+Progress (4): 167 kB | 290/379 kB | 134/521 kB | 4.1/4.5 kB
+Progress (4): 167 kB | 290/379 kB | 134/521 kB | 4.5 kB    
+Progress (4): 167 kB | 290/379 kB | 139/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 143/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 147/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 151/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 155/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 159/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 163/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 167/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 171/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 175/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 179/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 184/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 188/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 192/521 kB | 4.5 kB
+Progress (4): 167 kB | 290/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 294/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 298/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 302/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 306/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 311/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 315/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 319/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 323/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 327/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 331/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 335/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 339/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 343/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 347/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 351/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 356/379 kB | 196/521 kB | 4.5 kB
+Progress (4): 167 kB | 356/379 kB | 200/521 kB | 4.5 kB
+Progress (4): 167 kB | 356/379 kB | 204/521 kB | 4.5 kB
+Progress (4): 167 kB | 356/379 kB | 208/521 kB | 4.5 kB
+Progress (4): 167 kB | 356/379 kB | 212/521 kB | 4.5 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (167 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar
+Progress (4): 356/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 360/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 364/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 368/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 372/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 376/379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 212/521 kB | 4.5 kB | 0/2.6 MB    
+Progress (4): 379 kB | 216/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 220/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 225/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 229/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 229/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 233/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 237/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 241/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 245/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 249/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 253/521 kB | 4.5 kB | 0.1/2.6 MB
+Progress (4): 379 kB | 253/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 257/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 261/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 261/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 261/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 265/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 265/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 270/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 274/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 278/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 278/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 278/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 282/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 286/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 290/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 294/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 298/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 302/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 306/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 311/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 315/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 319/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 323/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 327/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 331/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 335/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 339/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 343/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 347/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 351/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 356/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 360/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 364/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 368/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 372/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 376/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 380/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 384/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 388/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 392/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 397/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 401/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 405/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 409/521 kB | 4.5 kB | 0.2/2.6 MB
+Progress (4): 379 kB | 409/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 413/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 417/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 421/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 425/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 425/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 425/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 425/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 429/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 433/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 438/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 442/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 446/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 446/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 450/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 454/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 458/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 462/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 466/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 470/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 474/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 478/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 483/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 487/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 487/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 491/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 495/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 499/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 503/521 kB | 4.5 kB | 0.3/2.6 MB
+Progress (4): 379 kB | 503/521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 507/521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 511/521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 515/521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 519/521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 521 kB | 4.5 kB | 0.4/2.6 MB    
+Progress (4): 379 kB | 521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 521 kB | 4.5 kB | 0.4/2.6 MB
+Progress (4): 379 kB | 521 kB | 4.5 kB | 0.4/2.6 MB
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar (4.5 kB at 689 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+Progress (3): 379 kB | 521 kB | 0.4/2.6 MB
+Progress (3): 379 kB | 521 kB | 0.5/2.6 MB
+Progress (3): 379 kB | 521 kB | 0.5/2.6 MB
+Progress (3): 379 kB | 521 kB | 0.5/2.6 MB
+Progress (3): 379 kB | 521 kB | 0.5/2.6 MB
+Progress (4): 379 kB | 521 kB | 0.5/2.6 MB | 4.1/32 kB
+Progress (4): 379 kB | 521 kB | 0.5/2.6 MB | 7.7/32 kB
+Progress (4): 379 kB | 521 kB | 0.5/2.6 MB | 12/32 kB 
+Progress (4): 379 kB | 521 kB | 0.5/2.6 MB | 16/32 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar (379 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+Progress (3): 521 kB | 0.5/2.6 MB | 20/32 kB
+Progress (3): 521 kB | 0.5/2.6 MB | 24/32 kB
+Progress (3): 521 kB | 0.5/2.6 MB | 28/32 kB
+Progress (3): 521 kB | 0.5/2.6 MB | 32 kB   
+Progress (3): 521 kB | 0.5/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.5/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.6/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.7/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.8/2.6 MB | 32 kB
+Progress (3): 521 kB | 0.8/2.6 MB | 32 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/4.2.1/guice-4.2.1-no_aop.jar (521 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar (32 kB at 4.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+Progress (1): 0.8/2.6 MB
+Progress (2): 0.8/2.6 MB | 4.1/8.8 kB
+Progress (2): 0.8/2.6 MB | 7.7/8.8 kB
+Progress (2): 0.8/2.6 MB | 8.8 kB    
+Progress (2): 0.8/2.6 MB | 8.8 kB
+Progress (2): 0.8/2.6 MB | 8.8 kB
+Progress (2): 0.8/2.6 MB | 8.8 kB
+Progress (2): 0.9/2.6 MB | 8.8 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 4.1/14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 7.7/14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 12/14 kB 
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB   
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 0.9/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.0/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.1/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.1/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.1/2.6 MB | 8.8 kB | 14 kB
+Progress (3): 1.1/2.6 MB | 8.8 kB | 14 kB
+Progress (4): 1.1/2.6 MB | 8.8 kB | 14 kB | 4.1/4.3 kB
+Progress (5): 1.1/2.6 MB | 8.8 kB | 14 kB | 4.1/4.3 kB | 3.5 kB
+Progress (5): 1.1/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB    
+Progress (5): 1.1/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.1/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.2/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.3/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.3/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+Progress (5): 1.3/2.6 MB | 8.8 kB | 14 kB | 4.3 kB | 3.5 kB
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar (8.8 kB at 1.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+Progress (4): 1.3/2.6 MB | 14 kB | 4.3 kB | 3.5 kB
+Progress (4): 1.3/2.6 MB | 14 kB | 4.3 kB | 3.5 kB
+                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar (14 kB at 2.1 kB/s)
+Progress (3): 1.3/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.4/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.5/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.6/2.6 MB | 4.3 kB | 3.5 kB
+Progress (3): 1.6/2.6 MB | 4.3 kB | 3.5 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar (3.5 kB at 524 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 646 B/s)
+Progress (1): 1.6/2.6 MB
+Progress (1): 1.6/2.6 MB
+Progress (1): 1.6/2.6 MB
+Progress (1): 1.6/2.6 MB
+Progress (1): 1.7/2.6 MB
+Progress (1): 1.7/2.6 MB
+Progress (1): 1.7/2.6 MB
+Progress (2): 1.7/2.6 MB | 4.1/502 kB
+Progress (2): 1.7/2.6 MB | 7.7/502 kB
+Progress (2): 1.7/2.6 MB | 12/502 kB 
+Progress (2): 1.7/2.6 MB | 16/502 kB
+Progress (2): 1.7/2.6 MB | 20/502 kB
+Progress (2): 1.7/2.6 MB | 24/502 kB
+Progress (2): 1.7/2.6 MB | 28/502 kB
+Progress (2): 1.7/2.6 MB | 32/502 kB
+Progress (2): 1.7/2.6 MB | 36/502 kB
+Progress (2): 1.7/2.6 MB | 40/502 kB
+Progress (2): 1.7/2.6 MB | 44/502 kB
+Progress (2): 1.7/2.6 MB | 48/502 kB
+Progress (2): 1.7/2.6 MB | 53/502 kB
+Progress (2): 1.7/2.6 MB | 57/502 kB
+Progress (2): 1.7/2.6 MB | 61/502 kB
+Progress (2): 1.7/2.6 MB | 65/502 kB
+Progress (2): 1.7/2.6 MB | 65/502 kB
+Progress (2): 1.7/2.6 MB | 69/502 kB
+Progress (2): 1.7/2.6 MB | 73/502 kB
+Progress (2): 1.7/2.6 MB | 77/502 kB
+Progress (2): 1.7/2.6 MB | 77/502 kB
+Progress (2): 1.7/2.6 MB | 81/502 kB
+Progress (2): 1.7/2.6 MB | 81/502 kB
+Progress (2): 1.8/2.6 MB | 81/502 kB
+Progress (2): 1.8/2.6 MB | 81/502 kB
+Progress (2): 1.8/2.6 MB | 81/502 kB
+Progress (2): 1.8/2.6 MB | 85/502 kB
+Progress (2): 1.8/2.6 MB | 89/502 kB
+Progress (2): 1.8/2.6 MB | 93/502 kB
+Progress (2): 1.8/2.6 MB | 98/502 kB
+Progress (2): 1.8/2.6 MB | 98/502 kB
+Progress (2): 1.8/2.6 MB | 98/502 kB
+Progress (2): 1.8/2.6 MB | 102/502 kB
+Progress (2): 1.8/2.6 MB | 102/502 kB
+Progress (2): 1.8/2.6 MB | 106/502 kB
+Progress (2): 1.8/2.6 MB | 110/502 kB
+Progress (2): 1.8/2.6 MB | 114/502 kB
+Progress (2): 1.8/2.6 MB | 118/502 kB
+Progress (2): 1.8/2.6 MB | 122/502 kB
+Progress (2): 1.8/2.6 MB | 126/502 kB
+Progress (2): 1.8/2.6 MB | 130/502 kB
+Progress (2): 1.8/2.6 MB | 134/502 kB
+Progress (2): 1.8/2.6 MB | 139/502 kB
+Progress (2): 1.8/2.6 MB | 143/502 kB
+Progress (2): 1.8/2.6 MB | 147/502 kB
+Progress (2): 1.8/2.6 MB | 151/502 kB
+Progress (2): 1.8/2.6 MB | 155/502 kB
+Progress (2): 1.8/2.6 MB | 159/502 kB
+Progress (2): 1.8/2.6 MB | 163/502 kB
+Progress (2): 1.8/2.6 MB | 163/502 kB
+Progress (2): 1.8/2.6 MB | 167/502 kB
+Progress (2): 1.9/2.6 MB | 167/502 kB
+Progress (2): 1.9/2.6 MB | 171/502 kB
+Progress (2): 1.9/2.6 MB | 175/502 kB
+Progress (2): 1.9/2.6 MB | 179/502 kB
+Progress (2): 1.9/2.6 MB | 184/502 kB
+Progress (2): 1.9/2.6 MB | 188/502 kB
+Progress (2): 1.9/2.6 MB | 192/502 kB
+Progress (2): 1.9/2.6 MB | 196/502 kB
+Progress (2): 1.9/2.6 MB | 200/502 kB
+Progress (2): 1.9/2.6 MB | 204/502 kB
+Progress (2): 1.9/2.6 MB | 208/502 kB
+Progress (2): 1.9/2.6 MB | 212/502 kB
+Progress (2): 1.9/2.6 MB | 212/502 kB
+Progress (2): 1.9/2.6 MB | 216/502 kB
+Progress (2): 1.9/2.6 MB | 220/502 kB
+Progress (2): 1.9/2.6 MB | 225/502 kB
+Progress (2): 1.9/2.6 MB | 229/502 kB
+Progress (2): 1.9/2.6 MB | 233/502 kB
+Progress (2): 1.9/2.6 MB | 237/502 kB
+Progress (2): 1.9/2.6 MB | 241/502 kB
+Progress (2): 1.9/2.6 MB | 245/502 kB
+Progress (2): 1.9/2.6 MB | 245/502 kB
+Progress (2): 1.9/2.6 MB | 245/502 kB
+Progress (2): 1.9/2.6 MB | 245/502 kB
+Progress (2): 1.9/2.6 MB | 249/502 kB
+Progress (2): 1.9/2.6 MB | 253/502 kB
+Progress (2): 1.9/2.6 MB | 257/502 kB
+Progress (2): 1.9/2.6 MB | 261/502 kB
+Progress (2): 1.9/2.6 MB | 266/502 kB
+Progress (2): 1.9/2.6 MB | 266/502 kB
+Progress (2): 1.9/2.6 MB | 270/502 kB
+Progress (2): 1.9/2.6 MB | 274/502 kB
+Progress (2): 1.9/2.6 MB | 278/502 kB
+Progress (2): 2.0/2.6 MB | 278/502 kB
+Progress (2): 2.0/2.6 MB | 282/502 kB
+Progress (2): 2.0/2.6 MB | 286/502 kB
+Progress (2): 2.0/2.6 MB | 290/502 kB
+Progress (2): 2.0/2.6 MB | 294/502 kB
+Progress (2): 2.0/2.6 MB | 294/502 kB
+Progress (2): 2.0/2.6 MB | 298/502 kB
+Progress (2): 2.0/2.6 MB | 302/502 kB
+Progress (2): 2.0/2.6 MB | 306/502 kB
+Progress (2): 2.0/2.6 MB | 311/502 kB
+Progress (2): 2.0/2.6 MB | 311/502 kB
+Progress (2): 2.0/2.6 MB | 311/502 kB
+Progress (2): 2.0/2.6 MB | 311/502 kB
+Progress (2): 2.0/2.6 MB | 311/502 kB
+Progress (2): 2.0/2.6 MB | 315/502 kB
+Progress (2): 2.0/2.6 MB | 319/502 kB
+Progress (2): 2.0/2.6 MB | 323/502 kB
+Progress (2): 2.0/2.6 MB | 327/502 kB
+Progress (2): 2.0/2.6 MB | 331/502 kB
+Progress (2): 2.1/2.6 MB | 331/502 kB
+Progress (2): 2.1/2.6 MB | 335/502 kB
+Progress (2): 2.1/2.6 MB | 339/502 kB
+Progress (2): 2.1/2.6 MB | 343/502 kB
+Progress (2): 2.1/2.6 MB | 347/502 kB
+Progress (2): 2.1/2.6 MB | 347/502 kB
+Progress (2): 2.1/2.6 MB | 352/502 kB
+Progress (2): 2.1/2.6 MB | 356/502 kB
+Progress (2): 2.1/2.6 MB | 360/502 kB
+Progress (2): 2.1/2.6 MB | 360/502 kB
+Progress (2): 2.1/2.6 MB | 364/502 kB
+Progress (2): 2.1/2.6 MB | 364/502 kB
+Progress (2): 2.1/2.6 MB | 368/502 kB
+Progress (2): 2.1/2.6 MB | 372/502 kB
+Progress (2): 2.1/2.6 MB | 376/502 kB
+Progress (2): 2.1/2.6 MB | 380/502 kB
+Progress (2): 2.1/2.6 MB | 384/502 kB
+Progress (2): 2.1/2.6 MB | 388/502 kB
+Progress (2): 2.1/2.6 MB | 392/502 kB
+Progress (2): 2.1/2.6 MB | 392/502 kB
+Progress (2): 2.1/2.6 MB | 392/502 kB
+Progress (2): 2.1/2.6 MB | 397/502 kB
+Progress (2): 2.1/2.6 MB | 401/502 kB
+Progress (2): 2.1/2.6 MB | 405/502 kB
+Progress (2): 2.1/2.6 MB | 409/502 kB
+Progress (2): 2.2/2.6 MB | 409/502 kB
+Progress (2): 2.2/2.6 MB | 413/502 kB
+Progress (2): 2.2/2.6 MB | 417/502 kB
+Progress (2): 2.2/2.6 MB | 421/502 kB
+Progress (2): 2.2/2.6 MB | 425/502 kB
+Progress (2): 2.2/2.6 MB | 425/502 kB
+Progress (2): 2.2/2.6 MB | 429/502 kB
+Progress (2): 2.2/2.6 MB | 433/502 kB
+Progress (2): 2.2/2.6 MB | 438/502 kB
+Progress (2): 2.2/2.6 MB | 442/502 kB
+Progress (2): 2.2/2.6 MB | 446/502 kB
+Progress (2): 2.2/2.6 MB | 450/502 kB
+Progress (2): 2.2/2.6 MB | 454/502 kB
+Progress (2): 2.2/2.6 MB | 458/502 kB
+Progress (2): 2.2/2.6 MB | 462/502 kB
+Progress (2): 2.2/2.6 MB | 466/502 kB
+Progress (2): 2.2/2.6 MB | 470/502 kB
+Progress (2): 2.2/2.6 MB | 474/502 kB
+Progress (2): 2.2/2.6 MB | 479/502 kB
+Progress (2): 2.2/2.6 MB | 483/502 kB
+Progress (2): 2.2/2.6 MB | 487/502 kB
+Progress (2): 2.2/2.6 MB | 491/502 kB
+Progress (2): 2.2/2.6 MB | 491/502 kB
+Progress (2): 2.2/2.6 MB | 495/502 kB
+Progress (2): 2.2/2.6 MB | 499/502 kB
+Progress (2): 2.2/2.6 MB | 502 kB    
+Progress (2): 2.2/2.6 MB | 502 kB
+Progress (2): 2.2/2.6 MB | 502 kB
+Progress (2): 2.2/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.3/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.4/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.5/2.6 MB | 502 kB
+Progress (2): 2.6/2.6 MB | 502 kB
+Progress (2): 2.6/2.6 MB | 502 kB
+Progress (2): 2.6/2.6 MB | 502 kB
+Progress (2): 2.6 MB | 502 kB    
+                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar (502 kB at 74 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/25.1-android/guava-25.1-android.jar (2.6 MB at 377 kB/s)
+WARNING: A restricted method 
+in java.lang.System has been 
+called
+WARNING: 
+java.lang.System::load has 
+been called by com.sun.glass.
+utils.NativeLibLoader in 
+module javafx.graphics (file:
+/C:/Users/DHIVYADHARSHINI%20R
+/.m2/repository/org/openjfx/j
+avafx-graphics/22.0.1/javafx-
+graphics-22.0.1-win.jar)
+WARNING: Use --enable-native-
+access=javafx.graphics to 
+avoid a warning for callers 
+in this module
+WARNING: Restricted methods 
+will be blocked in a future 
+release unless native access 
+is enabled
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2026-04-15T18:13:51.454+05:30  INFO 35232 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 25 with PID 35232 (started by DHIVYADHARSHINI R in C:\Users\DHIVYADHARSHINI R\expense_tracker\expense_tracker)
+2026-04-15T18:13:51.458+05:30  INFO 35232 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-04-15T18:13:53.092+05:30  INFO 35232 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-15T18:13:53.600+05:30  INFO 35232 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 491 ms. Found 2 JPA repository interfaces.
+2026-04-15T18:13:55.383+05:30  INFO 35232 --- [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-15T18:13:55.527+05:30  INFO 35232 --- [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-04-15T18:13:55.736+05:30  INFO 35232 --- [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-15T18:13:56.651+05:30  INFO 35232 --- [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-15T18:13:56.711+05:30  INFO 35232 --- [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-15T18:13:59.987+05:30  WARN 35232 --- [JavaFX-Launcher] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.example.expense_tracker.JavaFxApplication.init(JavaFxApplication.java:18) ~[classes/:na]
+	at javafx.graphics@22.0.1/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:817) ~[javafx-graphics-22.0.1-win.jar:na]
+	at javafx.graphics@22.0.1/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196) ~[javafx-graphics-22.0.1-win.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+2026-04-15T18:14:00.090+05:30  WARN 35232 --- [JavaFX-Launcher] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-15T18:14:02.298+05:30  INFO 35232 --- [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-15T18:14:02.354+05:30  INFO 35232 --- [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-15T18:14:05.594+05:30  WARN 35232 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2026-04-15T18:14:05.594+05:30 ERROR 35232 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-04-15T18:14:05.729+05:30 ERROR 35232 --- [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2026-04-15T18:14:05.731+05:30  WARN 35232 --- [JavaFX-Launcher] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2026-04-15T18:14:05.739+05:30  INFO 35232 --- [JavaFX-Launcher] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-15T18:14:05.918+05:30 ERROR 35232 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.example.expense_tracker.JavaFxApplication.init(JavaFxApplication.java:18) ~[classes/:na]
+	at javafx.graphics@22.0.1/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:817) ~[javafx-graphics-22.0.1-win.jar:na]
+	at javafx.graphics@22.0.1/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196) ~[javafx-graphics-22.0.1-win.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 16 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.8.jar:6.1.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.8.jar:6.1.8]
+	... 20 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Connection to nozomi.proxy.rlwy.net:31333 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.7.3.jar:42.7.3]
+Exception in Application 
+init method
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:437) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 40 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:550) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:659) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
+	... 54 common frames omitted
+
+Exception in thread "main" 
+java.lang.RuntimeException: 
+Exception in Application 
+init method
+	at javafx.graphics@22.0.1/co
+m.sun.javafx.application.Laun
+cherImpl.launchApplication1(L
+auncherImpl.java:888)
+	at javafx.graphics@22.0.1/co
+m.sun.javafx.application.Laun
+cherImpl.lambda$launchApplica
+tion$2(LauncherImpl.java:196)
+	at java.base/java.lang.Threa
+d.run(Thread.java:1474)
+Caused by: org.springframewor
+k.beans.factory.BeanCreationE
+xception: Error creating 
+bean with name 
+'entityManagerFactory' 
+defined in class path 
+resource [org/springframework
+/boot/autoconfigure/orm/jpa/H
+ibernateJpaConfiguration.clas
+s]: [PersistenceUnit: 
+default] Unable to build 
+Hibernate SessionFactory; 
+nested exception is org.hiber
+nate.exception.JDBCConnection
+Exception: Unable to open 
+JDBC Connection for DDL 
+execution [Connection to 
+nozomi.proxy.rlwy.net:31333 
+refused. Check that the 
+hostname and port are 
+correct and that the 
+postmaster is accepting 
+TCP/IP connections.] [n/a]
+	at org.springframework.beans
+.factory.support.AbstractAuto
+wireCapableBeanFactory.initia
+lizeBean(AbstractAutowireCapa
+bleBeanFactory.java:1788)
+	at org.springframework.beans
+.factory.support.AbstractAuto
+wireCapableBeanFactory.doCrea
+teBean(AbstractAutowireCapabl
+eBeanFactory.java:600)
+	at org.springframework.beans
+.factory.support.AbstractAuto
+wireCapableBeanFactory.create
+Bean(AbstractAutowireCapableB
+eanFactory.java:522)
+	at org.springframework.beans
+.factory.support.AbstractBean
+Factory.lambda$doGetBean$0(Ab
+stractBeanFactory.java:337)
+	at org.springframework.beans
+.factory.support.DefaultSingl
+etonBeanRegistry.getSingleton
+(DefaultSingletonBeanRegistry
+.java:234)
+	at org.springframework.beans
+.factory.support.AbstractBean
+Factory.doGetBean(AbstractBea
+nFactory.java:335)
+	at org.springframework.beans
+.factory.support.AbstractBean
+Factory.getBean(AbstractBeanF
+actory.java:205)
+	at org.springframework.conte
+xt.support.AbstractApplicatio
+nContext.finishBeanFactoryIni
+tialization(AbstractApplicati
+onContext.java:952)
+	at org.springframework.conte
+xt.support.AbstractApplicatio
+nContext.refresh(AbstractAppl
+icationContext.java:624)
+	at org.springframework.boot.
+SpringApplication.refresh(Spr
+ingApplication.java:754)
+	at org.springframework.boot.
+SpringApplication.refreshCont
+ext(SpringApplication.java:45
+6)
+	at org.springframework.boot.
+SpringApplication.run(SpringA
+pplication.java:335)
+	at org.springframework.boot.
+builder.SpringApplicationBuil
+der.run(SpringApplicationBuil
+der.java:149)
+	at org.example.expense_track
+er.JavaFxApplication.init(Jav
+aFxApplication.java:18)
+	at javafx.graphics@22.0.1/co
+m.sun.javafx.application.Laun
+cherImpl.launchApplication1(L
+auncherImpl.java:817)
+	... 2 more
+Caused by: jakarta.persistenc
+e.PersistenceException: 
+[PersistenceUnit: default] 
+Unable to build Hibernate 
+SessionFactory; nested 
+exception is org.hibernate.ex
+ception.JDBCConnectionExcepti
+on: Unable to open JDBC 
+Connection for DDL execution 
+[Connection to 
+nozomi.proxy.rlwy.net:31333 
+refused. Check that the 
+hostname and port are 
+correct and that the 
+postmaster is accepting 
+TCP/IP connections.] [n/a]
+	at org.springframework.orm.j
+pa.AbstractEntityManagerFacto
+ryBean.buildNativeEntityManag
+erFactory(AbstractEntityManag
+erFactoryBean.java:421)
+	at org.springframework.orm.j
+pa.AbstractEntityManagerFacto
+ryBean.afterPropertiesSet(Abs
+tractEntityManagerFactoryBean
+.java:396)
+	at org.springframework.orm.j
+pa.LocalContainerEntityManage
+rFactoryBean.afterPropertiesS
+et(LocalContainerEntityManage
+rFactoryBean.java:366)
+	at org.springframework.beans
+.factory.support.AbstractAuto
+wireCapableBeanFactory.invoke
+InitMethods(AbstractAutowireC
+apableBeanFactory.java:1835)
+	at org.springframework.beans
+.factory.support.AbstractAuto
+wireCapableBeanFactory.initia
+lizeBean(AbstractAutowireCapa
+bleBeanFactory.java:1784)
+	... 16 more
+Caused by: org.hibernate.exce
+ption.JDBCConnectionException
+: Unable to open JDBC 
+Connection for DDL execution 
+[Connection to 
+nozomi.proxy.rlwy.net:31333 
+refused. Check that the 
+hostname and port are 
+correct and that the 
+postmaster is accepting 
+TCP/IP connections.] [n/a]
+	at org.hibernate.exception.i
+nternal.SQLStateConversionDel
+egate.convert(SQLStateConvers
+ionDelegate.java:100)
+	at org.hibernate.exception.i
+nternal.StandardSQLExceptionC
+onverter.convert(StandardSQLE
+xceptionConverter.java:58)
+	at org.hibernate.engine.jdbc
+.spi.SqlExceptionHelper.conve
+rt(SqlExceptionHelper.java:10
+8)
+	at org.hibernate.engine.jdbc
+.spi.SqlExceptionHelper.conve
+rt(SqlExceptionHelper.java:94
+)
+	at org.hibernate.resource.tr
+ansaction.backend.jdbc.intern
+al.DdlTransactionIsolatorNonJ
+taImpl.getIsolatedConnection(
+DdlTransactionIsolatorNonJtaI
+mpl.java:74)
+	at org.hibernate.resource.tr
+ansaction.backend.jdbc.intern
+al.DdlTransactionIsolatorNonJ
+taImpl.getIsolatedConnection(
+DdlTransactionIsolatorNonJtaI
+mpl.java:39)
+	at org.hibernate.tool.schema
+.internal.exec.ImprovedExtrac
+tionContextImpl.getJdbcConnec
+tion(ImprovedExtractionContex
+tImpl.java:63)
+	at org.hibernate.tool.schema
+.extract.spi.ExtractionContex
+t.getQueryResults(ExtractionC
+ontext.java:43)
+	at org.hibernate.tool.schema
+.extract.internal.SequenceInf
+ormationExtractorLegacyImpl.e
+xtractMetadata(SequenceInform
+ationExtractorLegacyImpl.java
+:39)
+	at org.hibernate.tool.schema
+.extract.internal.DatabaseInf
+ormationImpl.initializeSequen
+ces(DatabaseInformationImpl.j
+ava:66)
+	at org.hibernate.tool.schema
+.extract.internal.DatabaseInf
+ormationImpl.<init>(DatabaseI
+nformationImpl.java:60)
+	at org.hibernate.tool.schema
+.internal.Helper.buildDatabas
+eInformation(Helper.java:185)
+	at org.hibernate.tool.schema
+.internal.AbstractSchemaMigra
+tor.doMigration(AbstractSchem
+aMigrator.java:98)
+	at org.hibernate.tool.schema
+.spi.SchemaManagementToolCoor
+dinator.performDatabaseAction
+(SchemaManagementToolCoordina
+tor.java:280)
+	at org.hibernate.tool.schema
+.spi.SchemaManagementToolCoor
+dinator.lambda$process$5(Sche
+maManagementToolCoordinator.j
+ava:144)
+	at java.base/java.util.HashM
+ap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema
+.spi.SchemaManagementToolCoor
+dinator.process(SchemaManagem
+entToolCoordinator.java:141)
+	at org.hibernate.boot.intern
+al.SessionFactoryObserverForS
+chemaExport.sessionFactoryCre
+ated(SessionFactoryObserverFo
+rSchemaExport.java:37)
+	at org.hibernate.internal.Se
+ssionFactoryObserverChain.ses
+sionFactoryCreated(SessionFac
+toryObserverChain.java:35)
+	at org.hibernate.internal.Se
+ssionFactoryImpl.<init>(Sessi
+onFactoryImpl.java:322)
+	at org.hibernate.boot.intern
+al.SessionFactoryBuilderImpl.
+build(SessionFactoryBuilderIm
+pl.java:457)
+	at org.hibernate.jpa.boot.in
+ternal.EntityManagerFactoryBu
+ilderImpl.build(EntityManager
+FactoryBuilderImpl.java:1506)
+	at org.springframework.orm.j
+pa.vendor.SpringHibernateJpaP
+ersistenceProvider.createCont
+ainerEntityManagerFactory(Spr
+ingHibernateJpaPersistencePro
+vider.java:75)
+	at org.springframework.orm.j
+pa.LocalContainerEntityManage
+rFactoryBean.createNativeEnti
+tyManagerFactory(LocalContain
+erEntityManagerFactoryBean.ja
+va:390)
+	at org.springframework.orm.j
+pa.AbstractEntityManagerFacto
+ryBean.buildNativeEntityManag
+erFactory(AbstractEntityManag
+erFactoryBean.java:409)
+	... 20 more
+Caused by: org.postgresql.uti
+l.PSQLException: Connection 
+to 
+nozomi.proxy.rlwy.net:31333 
+refused. Check that the 
+hostname and port are 
+correct and that the 
+postmaster is accepting 
+TCP/IP connections.
+	at org.postgresql.core.v3.Co
+nnectionFactoryImpl.openConne
+ctionImpl(ConnectionFactoryIm
+pl.java:346)
+	at org.postgresql.core.Conne
+ctionFactory.openConnection(C
+onnectionFactory.java:54)
+	at org.postgresql.jdbc.PgCon
+nection.<init>(PgConnection.j
+ava:273)
+	at org.postgresql.Driver.mak
+eConnection(Driver.java:446)
+	at org.postgresql.Driver.con
+nect(Driver.java:298)
+	at com.zaxxer.hikari.util.Dr
+iverDataSource.getConnection(
+DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.Po
+olBase.newConnection(PoolBase
+.java:360)
+	at com.zaxxer.hikari.pool.Po
+olBase.newPoolEntry(PoolBase.
+java:202)
+	at com.zaxxer.hikari.pool.Hi
+kariPool.createPoolEntry(Hika
+riPool.java:461)
+	at com.zaxxer.hikari.pool.Hi
+kariPool.checkFailFast(Hikari
+Pool.java:550)
+	at com.zaxxer.hikari.pool.Hi
+kariPool.<init>(HikariPool.ja
+va:98)
+	at com.zaxxer.hikari.HikariD
+ataSource.getConnection(Hikar
+iDataSource.java:111)
+	at org.hibernate.engine.jdbc
+.connections.internal.Datasou
+rceConnectionProviderImpl.get
+Connection(DatasourceConnecti
+onProviderImpl.java:122)
+	at org.hibernate.engine.jdbc
+.env.internal.JdbcEnvironment
+Initiator$ConnectionProviderJ
+dbcConnectionAccess.obtainCon
+nection(JdbcEnvironmentInitia
+tor.java:437)
+	at org.hibernate.resource.tr
+ansaction.backend.jdbc.intern
+al.DdlTransactionIsolatorNonJ
+taImpl.getIsolatedConnection(
+DdlTransactionIsolatorNonJtaI
+mpl.java:46)
+	... 40 more
+Caused by: 
+java.net.ConnectException: 
+Connection refused: 
+getsockopt
+	at java.base/sun.nio.ch.Net.
+pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.
+pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioS
+ocketImpl.timedFinishConnect(
+NioSocketImpl.java:550)
+	at java.base/sun.nio.ch.NioS
+ocketImpl.connect(NioSocketIm
+pl.java:594)
+	at java.base/java.net.SocksS
+ocketImpl.connect(SocksSocket
+Impl.java:284)
+	at java.base/java.net.Socket
+.connect(Socket.java:659)
+	at org.postgresql.core.PGStr
+eam.createSocket(PGStream.jav
+a:243)
+	at org.postgresql.core.PGStr
+eam.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.Co
+nnectionFactoryImpl.tryConnec
+t(ConnectionFactoryImpl.java:
+136)
+	at org.postgresql.core.v3.Co
+nnectionFactoryImpl.openConne
+ctionImpl(ConnectionFactoryIm
+pl.java:262)
+	... 54 more
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:404)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:166)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:567)
+    at org.openjfx.JavaFXBaseMojo.executeCommandLine (JavaFXBaseMojo.java:434)
+    at org.openjfx.JavaFXRunMojo.execute (JavaFXRunMojo.java:105)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:301)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:211)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:165)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:157)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:121)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:127)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:294)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:960)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:47)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:156)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:72)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+org.apache.commons.exec.Execu
+teException: Process exited 
+with an error: 1 (Exit 
+value: 1)
+	at org.apache.commons.exec.D
+efaultExecutor.executeInterna
+l(DefaultExecutor.java:404)
+	at org.apache.commons.exec.D
+efaultExecutor.execute(Defaul
+tExecutor.java:166)
+	at org.openjfx.JavaFXBaseMoj
+o.executeCommandLine(JavaFXBa
+seMojo.java:567)
+	at org.openjfx.JavaFXBaseMoj
+o.executeCommandLine(JavaFXBa
+seMojo.java:434)
+	at org.openjfx.JavaFXRunMojo
+.execute(JavaFXRunMojo.java:1
+05)
+	at org.apache.maven.plugin.D
+efaultBuildPluginManager.exec
+uteMojo(DefaultBuildPluginMan
+ager.java:137)
+	at org.apache.maven.lifecycl
+e.internal.MojoExecutor.doExe
+cute(MojoExecutor.java:301)
+	at org.apache.maven.lifecycl
+e.internal.MojoExecutor.execu
+te(MojoExecutor.java:211)
+	at org.apache.maven.lifecycl
+e.internal.MojoExecutor.execu
+te(MojoExecutor.java:165)
+	at org.apache.maven.lifecycl
+e.internal.MojoExecutor.execu
+te(MojoExecutor.java:157)
+	at org.apache.maven.lifecycl
+e.internal.LifecycleModuleBui
+lder.buildProject(LifecycleMo
+duleBuilder.java:121)
+	at org.apache.maven.lifecycl
+e.internal.LifecycleModuleBui
+lder.buildProject(LifecycleMo
+duleBuilder.java:81)
+	at org.apache.maven.lifecycl
+e.internal.builder.singlethre
+aded.SingleThreadedBuilder.bu
+ild(SingleThreadedBuilder.jav
+a:56)
+	at org.apache.maven.lifecycl
+e.internal.LifecycleStarter.e
+xecute(LifecycleStarter.java:
+127)
+	at org.apache.maven.DefaultM
+aven.doExecute(DefaultMaven.j
+ava:294)
+	at org.apache.maven.DefaultM
+aven.doExecute(DefaultMaven.j
+ava:192)
+	at org.apache.maven.DefaultM
+aven.execute(DefaultMaven.jav
+a:105)
+	at org.apache.maven.cli.Mave
+nCli.execute(MavenCli.java:96
+0)
+	at org.apache.maven.cli.Mave
+nCli.doMain(MavenCli.java:293
+)
+	at org.apache.maven.cli.Mave
+nCli.main(MavenCli.java:196)
+	at java.base/jdk.internal.re
+flect.DirectMethodHandleAcces
+sor.invoke(DirectMethodHandle
+Accessor.java:104)
+	at java.base/java.lang.refle
+ct.Method.invoke(Method.java:
+565)
+	at org.codehaus.plexus.class
+worlds.launcher.Launcher.laun
+chEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.class
+worlds.launcher.Launcher.laun
+ch(Launcher.java:225)
+	at org.codehaus.plexus.class
+worlds.launcher.Launcher.main
+WithExitCode(Launcher.java:40
+6)
+	at org.codehaus.plexus.class
+worlds.launcher.Launcher.main
+(Launcher.java:347)
+	at java.base/jdk.internal.re
+flect.DirectMethodHandleAcces
+sor.invoke(DirectMethodHandle
+Accessor.java:104)
+	at java.base/java.lang.refle
+ct.Method.invoke(Method.java:
+565)
+	at org.apache.maven.wrapper.
+BootstrapMainStarter.start(Bo
+otstrapMainStarter.java:47)
+	at org.apache.maven.wrapper.
+WrapperExecutor.execute(Wrapp
+erExecutor.java:156)
+	at org.apache.maven.wrapper.
+MavenWrapperMain.main(MavenWr
+apperMain.java:72)
+[INFO] Total time:  32.450 s
+[INFO] Finished at: 2026-04-15T18:14:06+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.openjfx:javafx-maven-plugin:0.0.8:run (default-cli) on project expense_tracker: Error: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class ReportDecorator implements TransactionReport {
     protected TransactionReport report;
 
-    public ReportDecorator(TransactionReport report) {
+    protected ReportDecorator(TransactionReport report) {
         this.report = report;
     }
 

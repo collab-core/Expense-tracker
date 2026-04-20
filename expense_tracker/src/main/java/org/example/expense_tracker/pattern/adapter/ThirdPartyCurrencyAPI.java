@@ -2,9 +2,6 @@ package org.example.expense_tracker.pattern.adapter;
 
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 @Component
 public class ThirdPartyCurrencyAPI {
     

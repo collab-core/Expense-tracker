@@ -2,12 +2,13 @@ package org.example.expense_tracker.pattern.command;
 
 import org.springframework.stereotype.Component;
 
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 @Component
 public class TransactionCommandInvoker {
-    private final Stack<Command> undoStack = new Stack<>();
-    private final Stack<Command> redoStack = new Stack<>();
+    private final Deque<Command> undoStack = new LinkedList<>();
+    private final Deque<Command> redoStack = new LinkedList<>();
 
     public void executeCommand(Command command) {
         command.execute();

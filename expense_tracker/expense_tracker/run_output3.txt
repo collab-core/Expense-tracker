@@ -1,0 +1,208 @@
+﻿.\mvnw.cmd : WARNING: A 
+restricted method in 
+java.lang.System has been 
+called
+At line:1 char:50
++ ... \Program 
+Files\Java\jdk-25"; 
+.\mvnw.cmd clean javafx:run 
+2>&1 | Out-F ...
++                            
+      ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (WARNING  
+  : A rest...has been call   
+ ed:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+WARNING: 
+java.lang.System::load has 
+been called by org.fusesource
+.jansi.internal.JansiLoader 
+in an unnamed module (file:/C
+:/Users/DHIVYADHARSHINI%20R/.
+m2/wrapper/dists/apache-maven
+-3.8.5-bin/5i5jha092a3i37g0pa
+qnfr15e0/apache-maven-3.8.5/l
+ib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-
+access=ALL-UNNAMED to avoid 
+a warning for callers in 
+this module
+WARNING: Restricted methods 
+will be blocked in a future 
+release unless native access 
+is enabled
+
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has been 
+called
+WARNING: sun.misc.Unsafe::obj
+ectFieldOffset has been 
+called by com.google.common.u
+til.concurrent.AbstractFuture
+$UnsafeAtomicHelper (file:/C:
+/Users/DHIVYADHARSHINI%20R/.m
+2/wrapper/dists/apache-maven-
+3.8.5-bin/5i5jha092a3i37g0paq
+nfr15e0/apache-maven-3.8.5/li
+b/guava-25.1-android.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class com.goog
+le.common.util.concurrent.Abs
+tractFuture$UnsafeAtomicHelpe
+r
+WARNING: sun.misc.Unsafe::obj
+ectFieldOffset will be 
+removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:expense_tracker >---------------------
+[INFO] Building expense_tracker 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ expense_tracker ---
+[INFO] Deleting C:\Users\DHIVYADHARSHINI R\expense_tracker\expense_tracker\target
+[INFO] 
+[INFO] >>> javafx-maven-plugin:0.0.8:run (default-cli) > process-classes @ expense_tracker >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ expense_tracker ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 8 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ expense_tracker ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 23 source files with javac [debug parameters release 22] to target\classes
+[INFO] 
+[INFO] <<< javafx-maven-plugin:0.0.8:run (default-cli) < process-classes @ expense_tracker <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx-maven-plugin:0.0.8:run (default-cli) @ expense_tracker ---
+WARNING: A restricted method 
+in java.lang.System has been 
+called
+WARNING: 
+java.lang.System::load has 
+been called by com.sun.glass.
+utils.NativeLibLoader in 
+module javafx.graphics (file:
+/C:/Users/DHIVYADHARSHINI%20R
+/.m2/repository/org/openjfx/j
+avafx-graphics/22.0.1/javafx-
+graphics-22.0.1-win.jar)
+WARNING: Use --enable-native-
+access=javafx.graphics to 
+avoid a warning for callers 
+in this module
+WARNING: Restricted methods 
+will be blocked in a future 
+release unless native access 
+is enabled
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2026-04-15T18:25:08.090+05:30  INFO 38300 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 25 with PID 38300 (started by DHIVYADHARSHINI R in C:\Users\DHIVYADHARSHINI R\expense_tracker\expense_tracker)
+2026-04-15T18:25:08.093+05:30  INFO 38300 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2026-04-15T18:25:09.248+05:30  INFO 38300 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-15T18:25:09.404+05:30  INFO 38300 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2026-04-15T18:25:10.398+05:30  INFO 38300 --- [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-15T18:25:10.544+05:30  INFO 38300 --- [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-04-15T18:25:10.625+05:30  INFO 38300 --- [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-15T18:25:11.268+05:30  INFO 38300 --- [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-15T18:25:11.318+05:30  INFO 38300 --- [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-15T18:25:28.577+05:30  INFO 38300 --- [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5507a8c
+2026-04-15T18:25:28.581+05:30  INFO 38300 --- [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-15T18:25:30.257+05:30  WARN 38300 --- [JavaFX-Launcher] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-15T18:25:32.014+05:30  INFO 38300 --- [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table transactions (
+        id bigint generated by default as identity,
+        amount numeric(38,2) not null,
+        category varchar(255) not null check (category in ('FOOD','RENT','TRAVEL','HEALTH','SHOPPING','INCOME','OTHER')),
+        date date not null,
+        description varchar(1024),
+        type varchar(255) not null check (type in ('INCOME','EXPENSE')),
+        user_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        id bigint generated by default as identity,
+        email varchar(255) not null,
+        password varchar(255) not null,
+        username varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists users 
+       drop constraint if exists UK6dotkott2kjsp8vw4d0m25fb7
+2026-04-15T18:25:35.060+05:30  WARN 38300 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2026-04-15T18:25:35.061+05:30  WARN 38300 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+Hibernate: 
+    alter table if exists users 
+       add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+Hibernate: 
+    alter table if exists users 
+       drop constraint if exists UKr43af9ap4edm43mmtq01oddj6
+2026-04-15T18:25:35.810+05:30  WARN 38300 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2026-04-15T18:25:35.810+05:30  WARN 38300 --- [JavaFX-Launcher] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "ukr43af9ap4edm43mmtq01oddj6" of relation "users" does not exist, skipping
+Hibernate: 
+    alter table if exists users 
+       add constraint UKr43af9ap4edm43mmtq01oddj6 unique (username)
+Hibernate: 
+    alter table if exists transactions 
+       add constraint FKqwv7rmvc8va8rep7piikrojds 
+       foreign key (user_id) 
+       references users
+2026-04-15T18:25:36.433+05:30  INFO 38300 --- [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-15T18:25:37.151+05:30  INFO 38300 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 29.703 seconds (process running for 31.09)
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has been 
+called
+WARNING: sun.misc.Unsafe::all
+ocateMemory has been called 
+by 
+com.sun.marlin.OffHeapArray (
+file:/C:/Users/DHIVYADHARSHIN
+I%20R/.m2/repository/org/open
+jfx/javafx-graphics/22.0.1/ja
+vafx-graphics-22.0.1-win.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class 
+com.sun.marlin.OffHeapArray
+WARNING: sun.misc.Unsafe::all
+ocateMemory will be removed 
+in a future release
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.password,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2026-04-15T18:28:37.382+05:30  INFO 38300 --- [lication Thread] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-15T18:28:37.393+05:30  INFO 38300 --- [lication Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-15T18:28:39.774+05:30  INFO 38300 --- [lication Thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:40 min
+[INFO] Finished at: 2026-04-15T18:28:40+05:30
+[INFO] ------------------------------------------------------------------------

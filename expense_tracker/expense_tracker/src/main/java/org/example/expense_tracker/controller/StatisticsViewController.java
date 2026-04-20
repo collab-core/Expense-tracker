@@ -11,7 +11,6 @@ import org.springframework.stereotype.Controller;
 
 import java.time.LocalDate;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 @Controller
 public class StatisticsViewController {
@@ -62,7 +61,7 @@ public class StatisticsViewController {
         // Sort by date to make the chart logical
         List<Map.Entry<LocalDate, Double>> sortedEntries = dailySpending.entrySet().stream()
                 .sorted(Map.Entry.comparingByKey())
-                .collect(Collectors.toList());
+                .toList();
 
         for (Map.Entry<LocalDate, Double> entry : sortedEntries) {
             series.getData().add(new XYChart.Data<>(entry.getKey().toString(), entry.getValue()));
@@ -79,29 +78,5 @@ public class StatisticsViewController {
 
         List<Map.Entry<LocalDate, Double>> sortedEntries = trendData.entrySet().stream()
                 .sorted(Map.Entry.comparingByKey())
-                .collect(Collectors.toList());
+                .toList();
 
-        for (Map.Entry<LocalDate, Double> entry : sortedEntries) {
-            series.getData().add(new XYChart.Data<>(entry.getKey().toString(), entry.getValue()));
-        }
-        expenseTrendChart.getData().clear();
-        expenseTrendChart.getData().add(series);
-    }
-
-    // --- NEW METHOD ---
-    private void loadIncomeTrendChartData() {
-        Map<LocalDate, Double> trendData = transactionService.getIncomeTrend();
-        XYChart.Series<String, Number> series = new XYChart.Series<>();
-        series.setName("Income");
-
-        List<Map.Entry<LocalDate, Double>> sortedEntries = trendData.entrySet().stream()
-                .sorted(Map.Entry.comparingByKey())
-                .collect(Collectors.toList());
-
-        for (Map.Entry<LocalDate, Double> entry : sortedEntries) {
-            series.getData().add(new XYChart.Data<>(entry.getKey().toString(), entry.getValue()));
-        }
-        incomeTrendChart.getData().clear();
-        incomeTrendChart.getData().add(series);
-    }
-}

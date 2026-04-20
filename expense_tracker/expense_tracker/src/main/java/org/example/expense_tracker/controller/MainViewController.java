@@ -1,6 +1,5 @@
 package org.example.expense_tracker.controller;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -95,32 +94,14 @@ public class MainViewController implements TransactionObserver {
             welcomeLabel.setText("Welcome, " + user.getUsername() + "!");
         }
 
-        // --- ROW STYLING LOGIC ---
+        // Setup row styling
         transactionsTable.setRowFactory(tv -> new TableRow<Transaction>() {
             @Override
             protected void updateItem(Transaction item, boolean empty) {
                 super.updateItem(item, empty);
-                if (item == null || empty) {
-                    setStyle("");
-                } else {
-                    // 1. Check for "Recent" (Today's Date)
-                    if (item.getDate().equals(LocalDate.now())) {
-                        setStyle("-fx-background-color: #fff9c4;"); // Pale Yellow
-                    }
-                    // 2. Check for Income/Expense
-                    else if (item.getType() == TransactionType.INCOME) {
-                        setStyle("-fx-background-color: #c8e6c9;"); // Light Green
-                    } else if (item.getType() == TransactionType.EXPENSE) {
-                        setStyle("-fx-background-color: #ffcdd2;"); // Light Red
-                    }
-                    // 3. Default (for old dates that aren't income/expense?)
-                    else {
-                        setStyle("");
-                    }
-                }
+                setStyle(getTransactionRowStyle(item, empty));
             }
         });
-        // --- END OF ROW STYLING ---
 
         // Setup table columns
         dateColumn.setCellValueFactory(cellData -> new SimpleObjectProperty<>(cellData.getValue().getDate()));
@@ -149,6 +130,22 @@ public class MainViewController implements TransactionObserver {
         }
     }
 
+    private String getTransactionRowStyle(Transaction item, boolean empty) {
+        if (item == null || empty) {
+            return "";
+        }
+        if (item.getDate().equals(LocalDate.now())) {
+            return "-fx-background-color: #fff9c4;"; // Pale Yellow
+        }
+        if (item.getType() == TransactionType.INCOME) {
+            return "-fx-background-color: #c8e6c9;"; // Light Green
+        }
+        if (item.getType() == TransactionType.EXPENSE) {
+            return "-fx-background-color: #ffcdd2;"; // Light Red
+        }
+        return "";
+    }
+
     private void loadView(String fxmlFile) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile));
@@ -165,8 +162,9 @@ public class MainViewController implements TransactionObserver {
         userSession.logout();
         try {
             viewSwitcher.switchTo("/fxml/LoginView.fxml", "Login");
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        } catch (RuntimeException e) {
+            logger.error("Failed to switch to login view", e);
+            throw e;
         }
     }
 

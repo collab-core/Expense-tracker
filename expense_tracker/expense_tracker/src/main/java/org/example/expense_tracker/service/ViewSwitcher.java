@@ -36,8 +36,8 @@ public class ViewSwitcher {
             primaryStage.setTitle(title);
             primaryStage.setScene(scene);
             primaryStage.show();
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to load view: " + fxmlPath, e);
+        } catch (java.io.IOException e) {
+            throw new IllegalStateException("Failed to load view: " + fxmlPath, e);
         }
     }
 }

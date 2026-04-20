@@ -85,7 +85,7 @@ public class TransactionFormController {
                 errorLabel.setText("Amount must be a positive number.");
                 return;
             }
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException _) {
             errorLabel.setText("Invalid amount. Please enter a number.");
             return;
         }

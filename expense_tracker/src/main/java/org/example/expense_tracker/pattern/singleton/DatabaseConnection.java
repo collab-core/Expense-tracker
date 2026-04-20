@@ -3,21 +3,20 @@ package org.example.expense_tracker.pattern.singleton;
 import java.sql.Connection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
+/**
+ * Database connection component managed by Spring as a singleton.
+ * Spring automatically manages the singleton lifecycle, ensuring a single instance
+ * of this component is created and shared across the application.
+ */
+@Component
 public class DatabaseConnection {
     private static final Logger logger = LoggerFactory.getLogger(DatabaseConnection.class);
-    private static DatabaseConnection instance;
     private Connection connection;
 
-    private DatabaseConnection() {
-        logger.info("Singleton DatabaseConnection initialized");
-    }
-
-    public static synchronized DatabaseConnection getInstance() {
-        if (instance == null) {
-            instance = new DatabaseConnection();
-        }
-        return instance;
+    public DatabaseConnection() {
+        logger.info("DatabaseConnection bean initialized by Spring");
     }
 
     public Connection getConnection() {

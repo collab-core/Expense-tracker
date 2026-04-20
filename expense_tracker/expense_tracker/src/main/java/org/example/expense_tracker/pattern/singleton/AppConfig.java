@@ -1,18 +1,17 @@
 package org.example.expense_tracker.pattern.singleton;
 
+import org.springframework.stereotype.Component;
+
+/**
+ * Application configuration component managed by Spring as a singleton.
+ * Spring automatically manages the singleton lifecycle, so manual synchronization is not needed.
+ */
+@Component
 public class AppConfig {
-    private static AppConfig instance;
     private String currencyCode = "USD";
     
-    private AppConfig() {}
+    public AppConfig() {}
 
-    public static synchronized AppConfig getInstance() {
-        if (instance == null) {
-            instance = new AppConfig();
-        }
-        return instance;
-    }
-    
     public String getCurrencyCode() {
         return currencyCode;
     }

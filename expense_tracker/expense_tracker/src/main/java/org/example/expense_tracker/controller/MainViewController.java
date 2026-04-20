@@ -152,8 +152,8 @@ public class MainViewController implements TransactionObserver {
             fxmlLoader.setControllerFactory(applicationContext::getBean);
             Parent view = fxmlLoader.load();
             mainBorderPane.setCenter(view);
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (java.io.IOException e) {
+            logger.error("Failed to load view: {}", fxmlFile, e);
         }
     }
 

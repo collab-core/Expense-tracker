@@ -157,9 +157,9 @@ public class MainViewController implements TransactionObserver {
         userSession.logout();
         try {
             viewSwitcher.switchTo("/fxml/LoginView.fxml", "Login");
-        } catch (RuntimeException e) {
-            throw new RuntimeException(
-                "Logout failed: Unable to navigate to login view", e
+        } catch (IllegalStateException e) {
+            throw new IllegalStateException(
+                "Unable to navigate to login view during logout", e
             );
         }
     }

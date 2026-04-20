@@ -14,7 +14,10 @@ public class AppConfig {
      * Default constructor for Spring component initialization.
      * AppConfig is managed by Spring as a singleton component.
      */
-    public AppConfig() {}
+    public AppConfig() {
+        // Empty constructor required by Spring framework for component instantiation
+        // AppConfig uses Spring's default singleton scope management
+    }
 
     public String getCurrencyCode() {
         return currencyCode;

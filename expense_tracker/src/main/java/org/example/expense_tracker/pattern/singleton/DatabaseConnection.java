@@ -16,6 +16,8 @@ public class DatabaseConnection {
     private Connection connection;
 
     public DatabaseConnection() {
+        // Empty constructor required by Spring framework for component instantiation
+        // DatabaseConnection uses Spring's default singleton scope management
         logger.info("DatabaseConnection bean initialized by Spring");
     }
 
